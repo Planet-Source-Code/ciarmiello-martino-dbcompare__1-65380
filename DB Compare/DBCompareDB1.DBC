@@ -1,0 +1,6022 @@
+ContTable
+ 32 
+TableList
+0.ANA_MEDICI
+1.ANA_SPECIALISTI
+2.Calendario
+3.Commissioni
+4.ComuniCommissioni
+5.DiagnosiDettagli
+6.DiagnosiGruppi
+7.IC_104
+8.IC_68
+9.IC_CATEGORIE
+10.IC_DOMANDE
+11.IC_Esiti
+12.IC_Procedimenti
+13.IC_Provvedimenti
+14.IC_Provvedimenti104
+15.IC_VERBALE
+16.IC_VERBALE_DIAGNOSI
+17.TAB_ARCHIVIO_INVITI
+18.TAB_CAUSALI
+19.TAB_COMUNI
+20.TAB_DOCUMENTI
+21.TAB_ENTE
+22.TAB_INVITI
+23.TAB_INVITI2
+24.TAB_LOCK
+25.TAB_Professioni
+26.TAB_SERIAL
+27.TAB_STATCIV
+28.TAB_STATISTICHE
+29.TAB_STATQUERY
+30.TAB_TESTI
+31.TAB_TESTI_Format
+32.TAB_UTENTI
+ContField
+0.ContField
+ 21 
+1.ContField
+ 17 
+2.ContField
+ 20 
+3.ContField
+ 20 
+4.ContField
+ 7 
+5.ContField
+ 6 
+6.ContField
+ 2 
+7.ContField
+ 130 
+8.ContField
+ 248 
+9.ContField
+ 3 
+10.ContField
+ 130 
+11.ContField
+ 3 
+12.ContField
+ 3 
+13.ContField
+ 4 
+14.ContField
+ 4 
+15.ContField
+ 65 
+16.ContField
+ 9 
+17.ContField
+ 11 
+18.ContField
+ 3 
+19.ContField
+ 11 
+20.ContField
+ 7 
+21.ContField
+ 34 
+22.ContField
+ 22 
+23.ContField
+ 22 
+24.ContField
+ 5 
+25.ContField
+ 2 
+26.ContField
+ 5 
+27.ContField
+ 2 
+28.ContField
+ 90 
+29.ContField
+ 3 
+30.ContField
+ 30 
+31.ContField
+ 30 
+32.ContField
+ 17 
+FieldList
+0.0.FieldList
+Med_Cod
+0.1.FieldList
+Med_Des
+0.2.FieldList
+Com_Cod_Fis_Nas
+0.3.FieldList
+Med_Data_Nas
+0.4.FieldList
+Med_Sesso
+0.5.FieldList
+Med_Indir_Res
+0.6.FieldList
+Med_Nr_Civico_Res
+0.7.FieldList
+Com_Cod_Fis_Res
+0.8.FieldList
+Med_Cap_Res
+0.9.FieldList
+Med_Citta_Res
+0.10.FieldList
+Med_Prov_Res
+0.11.FieldList
+Med_CodFis
+0.12.FieldList
+Med_Tel
+0.13.FieldList
+Med_Fax
+0.14.FieldList
+Com_Cod_Fis_Amb
+0.15.FieldList
+Commissione
+0.16.FieldList
+AssistSoc
+0.17.FieldList
+Sys_Data
+0.18.FieldList
+Ute_Cod
+0.19.FieldList
+ASL
+0.20.FieldList
+Distretto
+1.0.FieldList
+Med_Cod
+1.1.FieldList
+Med_Des
+1.2.FieldList
+Com_Cod_Fis_Nas
+1.3.FieldList
+Med_Data_Nas
+1.4.FieldList
+Med_Sesso
+1.5.FieldList
+Med_Indir_Res
+1.6.FieldList
+Med_Nr_Civico_Res
+1.7.FieldList
+Com_Cod_Fis_Res
+1.8.FieldList
+Med_Cap_Res
+1.9.FieldList
+Med_Citta_Res
+1.10.FieldList
+Med_Prov_Res
+1.11.FieldList
+Med_CodFis
+1.12.FieldList
+Med_Tel
+1.13.FieldList
+Med_Fax
+1.14.FieldList
+Com_Cod_Fis_Amb
+1.15.FieldList
+Sys_Data
+1.16.FieldList
+Ute_Cod
+2.0.FieldList
+Commissione
+2.1.FieldList
+Data
+2.2.FieldList
+Ora
+2.3.FieldList
+Presidente
+2.4.FieldList
+Pres0
+2.5.FieldList
+Medico1
+2.6.FieldList
+Pres1
+2.7.FieldList
+Medico2
+2.8.FieldList
+Pres2
+2.9.FieldList
+Medico3
+2.10.FieldList
+Pres3
+2.11.FieldList
+Medico4
+2.12.FieldList
+Pres4
+2.13.FieldList
+Medico5
+2.14.FieldList
+Pres5
+2.15.FieldList
+Prog
+2.16.FieldList
+Tipo
+2.17.FieldList
+Archivio
+2.18.FieldList
+ASL
+2.19.FieldList
+Distretto
+3.0.FieldList
+Prog
+3.1.FieldList
+Prot
+3.2.FieldList
+Data
+3.3.FieldList
+Commissione
+3.4.FieldList
+Distr
+3.5.FieldList
+Cod_pres
+3.6.FieldList
+Des_pres
+3.7.FieldList
+Cod_med1
+3.8.FieldList
+Des_med1
+3.9.FieldList
+Cod_med2
+3.10.FieldList
+Des_med2
+3.11.FieldList
+Cod_med3
+3.12.FieldList
+Des_med3
+3.13.FieldList
+Cod_med4
+3.14.FieldList
+Des_med4
+3.15.FieldList
+Cod_med5
+3.16.FieldList
+Des_med5
+3.17.FieldList
+Data_Fine
+3.18.FieldList
+ASL
+3.19.FieldList
+Distretto
+4.0.FieldList
+ID
+4.1.FieldList
+ASL
+4.2.FieldList
+Distretto
+4.3.FieldList
+Distr
+4.4.FieldList
+Commissione
+4.5.FieldList
+Cod_Comune
+4.6.FieldList
+Comune
+5.0.FieldList
+Gruppo
+5.1.FieldList
+Codice
+5.2.FieldList
+DescrizioneDiagnosi
+5.3.FieldList
+Minimo
+5.4.FieldList
+Massimo
+5.5.FieldList
+Unico
+6.0.FieldList
+Gruppo
+6.1.FieldList
+DescrizioneGruppo
+7.0.FieldList
+Prot
+7.1.FieldList
+AnnoProt
+7.2.FieldList
+Patr
+7.3.FieldList
+Ins
+7.4.FieldList
+Del
+7.5.FieldList
+Cognome
+7.6.FieldList
+Nome
+7.7.FieldList
+LuogoNascita
+7.8.FieldList
+ProvNascita
+7.9.FieldList
+DataNascita
+7.10.FieldList
+Sesso
+7.11.FieldList
+Residenza
+7.12.FieldList
+ProvRes
+7.13.FieldList
+CapRes
+7.14.FieldList
+CodFis
+7.15.FieldList
+Indirizzo
+7.16.FieldList
+NumCiv
+7.17.FieldList
+Telefono
+7.18.FieldList
+Professione
+7.19.FieldList
+StatoCivile
+7.20.FieldList
+TipoDomanda
+7.21.FieldList
+DesTipo
+7.22.FieldList
+NumCommissione
+7.23.FieldList
+Data1Invito
+7.24.FieldList
+Esito1Invito
+7.25.FieldList
+DataInvito
+7.26.FieldList
+Data2Invito
+7.27.FieldList
+Esito2Invito
+7.28.FieldList
+Ore2Invito
+7.29.FieldList
+DataDefinizione
+7.30.FieldList
+EsitoDefinitivo
+7.31.FieldList
+TipoAccertamento
+7.32.FieldList
+DataVisitaDomiciliare
+7.33.FieldList
+ImminenteVisitaDom
+7.34.FieldList
+Note
+7.35.FieldList
+Minorenne
+7.36.FieldList
+tipologia
+7.37.FieldList
+cod_tipologia
+7.38.FieldList
+ore1Invito
+7.39.FieldList
+DesTipo2
+7.40.FieldList
+DesTipo3
+7.41.FieldList
+CodProvvRiconosciuto
+7.42.FieldList
+DesProvvRiconosciuto
+7.43.FieldList
+rogatoria
+7.44.FieldList
+Punteggio
+7.45.FieldList
+DataProvvDef
+7.46.FieldList
+DataCMP
+7.47.FieldList
+ProtCMP
+7.48.FieldList
+DesParere
+7.49.FieldList
+Punteggio2
+7.50.FieldList
+DataProvvedimentoDef
+7.51.FieldList
+DataDecorrenza
+7.52.FieldList
+DataRevisione
+7.53.FieldList
+DataProtComune
+7.54.FieldList
+ProtComune
+7.55.FieldList
+DataNotifica
+7.56.FieldList
+ProtNotifica
+7.57.FieldList
+Chiarimenti
+7.58.FieldList
+Note2
+7.59.FieldList
+EsitoDefinitivo2
+7.60.FieldList
+Data_Visita_Domic
+7.61.FieldList
+Data_Esito_Defin
+7.62.FieldList
+Annotazioni
+7.63.FieldList
+CodProvvedRicon2
+7.64.FieldList
+DesProvvedRicon2
+7.65.FieldList
+DataChiarimenti
+7.66.FieldList
+DurataBeneficio
+7.67.FieldList
+DataInvitoSys1
+7.68.FieldList
+DataInvitoSys2
+7.69.FieldList
+Cod_Utente
+7.70.FieldList
+Dottore1
+7.71.FieldList
+Dottore2
+7.72.FieldList
+Dottore3
+7.73.FieldList
+Dottore4
+7.74.FieldList
+Dottore5
+7.75.FieldList
+Specialista1
+7.76.FieldList
+Specialista2
+7.77.FieldList
+Ass_Sociale
+7.78.FieldList
+Presidente
+7.79.FieldList
+Revoca_Del
+7.80.FieldList
+Decreto_n∞
+7.81.FieldList
+Posizione_n∞
+7.82.FieldList
+Prot_Revoca
+7.83.FieldList
+Data_Prot_Revoca
+7.84.FieldList
+DataSys
+7.85.FieldList
+Med_Domiciliare1
+7.86.FieldList
+Med_Domiciliare2
+7.87.FieldList
+Med_Domiciliare3
+7.88.FieldList
+Med_Domiciliare4
+7.89.FieldList
+Med_Domiciliare5
+7.90.FieldList
+Med_Domiciliare6
+7.91.FieldList
+Fuori_servizio
+7.92.FieldList
+Data_Parere_Favorevole
+7.93.FieldList
+DataRevisioneIstanza1
+7.94.FieldList
+LogUser
+7.95.FieldList
+DataDiffida
+7.96.FieldList
+ProtDiffida
+7.97.FieldList
+Faldone
+7.98.FieldList
+ProtInvito
+7.99.FieldList
+ProtInvito2
+7.100.FieldList
+Tut_Cognome
+7.101.FieldList
+Tut_Nome
+7.102.FieldList
+Tut_LuogoNascita
+7.103.FieldList
+Tut_ProvNascita
+7.104.FieldList
+Tut_DataNascita
+7.105.FieldList
+Tut_Sesso
+7.106.FieldList
+Tut_Residenza
+7.107.FieldList
+Tut_ProvRes
+7.108.FieldList
+Tut_CapRes
+7.109.FieldList
+Tut_CodFis
+7.110.FieldList
+Tut_Indirizzo
+7.111.FieldList
+Tut_NumCiv
+7.112.FieldList
+Tut_Telefono
+7.113.FieldList
+Tut_Professione
+7.114.FieldList
+Tut_StatoCivile
+7.115.FieldList
+Tut_Note
+7.116.FieldList
+Patr_Patr
+7.117.FieldList
+Patr_Nome
+7.118.FieldList
+Patr_Telefono
+7.119.FieldList
+Patr_Residenza
+7.120.FieldList
+Patr_ProvRes
+7.121.FieldList
+Patr_CapRes
+7.122.FieldList
+Patr_Indirizzo
+7.123.FieldList
+Patr_NumCiv
+7.124.FieldList
+Patr_Note
+7.125.FieldList
+EnteRevocante
+7.126.FieldList
+Prot_Verbale_CMP
+7.127.FieldList
+Data_Chiusura_Verbale
+7.128.FieldList
+ASL
+7.129.FieldList
+Distretto
+8.0.FieldList
+Cod_Utente
+8.1.FieldList
+Prot
+8.2.FieldList
+AnnoProt
+8.3.FieldList
+Del
+8.4.FieldList
+CodFis
+8.5.FieldList
+Cognome
+8.6.FieldList
+Nome
+8.7.FieldList
+Sesso
+8.8.FieldList
+DataNascita
+8.9.FieldList
+LuogoNascita
+8.10.FieldList
+ProvNascita
+8.11.FieldList
+Telefono
+8.12.FieldList
+Professione
+8.13.FieldList
+StatoCivile
+8.14.FieldList
+Residenza
+8.15.FieldList
+ProvRes
+8.16.FieldList
+CapRes
+8.17.FieldList
+Indirizzo
+8.18.FieldList
+NumCiv
+8.19.FieldList
+Documento
+8.20.FieldList
+DataProvvDef
+8.21.FieldList
+Punteggio
+8.22.FieldList
+DataRevisioneIstanza1
+8.23.FieldList
+OggettoAcc1
+8.24.FieldList
+OggettoAcc2
+8.25.FieldList
+OggettoAcc3
+8.26.FieldList
+OggettoAcc4
+8.27.FieldList
+Richiedente
+8.28.FieldList
+DataRichiesta
+8.29.FieldList
+TipoRichiesta
+8.30.FieldList
+TermineDefinizione
+8.31.FieldList
+NumCommissione
+8.32.FieldList
+Dottore1
+8.33.FieldList
+Dottore2
+8.34.FieldList
+Dottore3
+8.35.FieldList
+Dottore4
+8.36.FieldList
+Dottore5
+8.37.FieldList
+Specialista1
+8.38.FieldList
+Presidente
+8.39.FieldList
+Fuori_servizio
+8.40.FieldList
+Data1Invito
+8.41.FieldList
+ore1Invito
+8.42.FieldList
+TipoAccertamento
+8.43.FieldList
+Esito1Invito
+8.44.FieldList
+DataInvito
+8.45.FieldList
+ProtInvito
+8.46.FieldList
+Med_Domiciliare1
+8.47.FieldList
+Med_Domiciliare2
+8.48.FieldList
+Data2Invito
+8.49.FieldList
+Ore2Invito
+8.50.FieldList
+DesTipo2
+8.51.FieldList
+Esito2Invito
+8.52.FieldList
+ProtInvito2
+8.53.FieldList
+Med_Domiciliare3
+8.54.FieldList
+Med_Domiciliare4
+8.55.FieldList
+EsitoDefinitivo
+8.56.FieldList
+DataDefinizione
+8.57.FieldList
+Note
+8.58.FieldList
+tipologia
+8.59.FieldList
+CodProvvRiconosciuto
+8.60.FieldList
+DesProvvRiconosciuto
+8.61.FieldList
+DataCMP
+8.62.FieldList
+ProtCMP
+8.63.FieldList
+DataRevisione
+8.64.FieldList
+DesTipo3
+8.65.FieldList
+Med_Domiciliare5
+8.66.FieldList
+Med_Domiciliare6
+8.67.FieldList
+DesParere
+8.68.FieldList
+CodProvvedRicon2
+8.69.FieldList
+DesProvvedRicon2
+8.70.FieldList
+Punteggio2
+8.71.FieldList
+DataNotifica
+8.72.FieldList
+ProtNotifica
+8.73.FieldList
+Data_Esito_Defin
+8.74.FieldList
+DurataBeneficio
+8.75.FieldList
+Data_Visita_Domic
+8.76.FieldList
+DataProtComune
+8.77.FieldList
+ProtComune
+8.78.FieldList
+DataChiarimenti
+8.79.FieldList
+Annotazioni
+8.80.FieldList
+Chiarimenti
+8.81.FieldList
+Note2
+8.82.FieldList
+DataInvitoSys1
+8.83.FieldList
+DataInvitoSys2
+8.84.FieldList
+RicMedLeg
+8.85.FieldList
+StatoGiuridico
+8.86.FieldList
+ComposizioneFamiliare1
+8.87.FieldList
+ComposizioneFamiliare2
+8.88.FieldList
+ComposizioneFamiliare3
+8.89.FieldList
+ComposizioneFamiliare4
+8.90.FieldList
+ComposizioneFamiliare5
+8.91.FieldList
+ComposizioneFamiliare6
+8.92.FieldList
+NoteComposizioneFamiliare
+8.93.FieldList
+Capacita01
+8.94.FieldList
+Capacita02
+8.95.FieldList
+Capacita03
+8.96.FieldList
+Capacita04
+8.97.FieldList
+Capacita05
+8.98.FieldList
+Capacita06
+8.99.FieldList
+Capacita07
+8.100.FieldList
+Capacita08
+8.101.FieldList
+Capacita09
+8.102.FieldList
+Capacita10
+8.103.FieldList
+Capacita11
+8.104.FieldList
+Capacita12
+8.105.FieldList
+Capacita13
+8.106.FieldList
+Capacita14
+8.107.FieldList
+Capacita15
+8.108.FieldList
+Capacita16
+8.109.FieldList
+Capacita17
+8.110.FieldList
+Capacita18
+8.111.FieldList
+Capacita19
+8.112.FieldList
+Capacita20
+8.113.FieldList
+Capacita21
+8.114.FieldList
+Capacita22
+8.115.FieldList
+Capacita23
+8.116.FieldList
+Capacita24
+8.117.FieldList
+Capacita25
+8.118.FieldList
+Capacita26
+8.119.FieldList
+Capacita27
+8.120.FieldList
+Capacita28
+8.121.FieldList
+Capacita29
+8.122.FieldList
+Capacita30
+8.123.FieldList
+Capacita31
+8.124.FieldList
+Capacita32
+8.125.FieldList
+Capacita33
+8.126.FieldList
+CapacitaMigliori
+8.127.FieldList
+CapacitaMigliorabili1
+8.128.FieldList
+MigliorabiliMediante1
+8.129.FieldList
+TempoMiglioramento1
+8.130.FieldList
+CapacitaMigliorabili2
+8.131.FieldList
+MigliorabiliMediante2
+8.132.FieldList
+TempoMiglioramento2
+8.133.FieldList
+CapacitaMigliorabili3
+8.134.FieldList
+MigliorabiliMediante3
+8.135.FieldList
+TempoMiglioramento3
+8.136.FieldList
+CapacitaMigliorabili4
+8.137.FieldList
+MigliorabiliMediante4
+8.138.FieldList
+TempoMiglioramento4
+8.139.FieldList
+CapacitaMigliorabili5
+8.140.FieldList
+MigliorabiliMediante5
+8.141.FieldList
+TempoMiglioramento5
+8.142.FieldList
+Istruzione
+8.143.FieldList
+ConoscenzaPC
+8.144.FieldList
+ConoscenzaLS
+8.145.FieldList
+Lavoro
+8.146.FieldList
+ProblemiAbitativi
+8.147.FieldList
+AltriProblemi
+8.148.FieldList
+MotivoAccertamento
+8.149.FieldList
+Disabilit‡Evidenti
+8.150.FieldList
+Disabilit‡Riferite
+8.151.FieldList
+MinorazDoc1
+8.152.FieldList
+MinorazDoc2
+8.153.FieldList
+MinorazDoc3
+8.154.FieldList
+MinorazDoc4
+8.155.FieldList
+MinorazDoc5
+8.156.FieldList
+MinorazDoc6
+8.157.FieldList
+MinorazDoc7
+8.158.FieldList
+MinorazDocNote
+8.159.FieldList
+MinorazioneCausa1
+8.160.FieldList
+MinorazioneCausa2
+8.161.FieldList
+MinorazioneCausa3
+8.162.FieldList
+Autonomia1
+8.163.FieldList
+Autonomia2
+8.164.FieldList
+Autonomia3
+8.165.FieldList
+Autonomia4
+8.166.FieldList
+Difficolt‡1
+8.167.FieldList
+Difficolt‡2
+8.168.FieldList
+Difficolt‡3
+8.169.FieldList
+Difficolt‡4
+8.170.FieldList
+Difficolt‡5
+8.171.FieldList
+Difficolt‡6
+8.172.FieldList
+Difficolt‡7
+8.173.FieldList
+Difficolt‡8
+8.174.FieldList
+Difficolt‡Note
+8.175.FieldList
+Bisogni1
+8.176.FieldList
+Bisogni2
+8.177.FieldList
+Bisogni3
+8.178.FieldList
+Bisogni4
+8.179.FieldList
+Bisogni5
+8.180.FieldList
+Bisogni6
+8.181.FieldList
+Bisogni7
+8.182.FieldList
+Bisogni8
+8.183.FieldList
+Bisogni9
+8.184.FieldList
+Bisogni10
+8.185.FieldList
+Bisogni11
+8.186.FieldList
+Bisogni12
+8.187.FieldList
+Bisogni13
+8.188.FieldList
+Bisogni14
+8.189.FieldList
+Bisogni15
+8.190.FieldList
+BisogniNote
+8.191.FieldList
+Necessit‡Intervento2
+8.192.FieldList
+Necessit‡Intervento3
+8.193.FieldList
+Necessit‡Intervento4
+8.194.FieldList
+Necessit‡Intervento5
+8.195.FieldList
+Necessit‡Intervento6
+8.196.FieldList
+Necessit‡Intervento7
+8.197.FieldList
+Necessit‡Intervento8
+8.198.FieldList
+Necessit‡Intervento9
+8.199.FieldList
+ReteAssist1
+8.200.FieldList
+ReteAssist2
+8.201.FieldList
+ReteAssist3
+8.202.FieldList
+ReteAssist4
+8.203.FieldList
+ReteAssist5
+8.204.FieldList
+ReteAssist6
+8.205.FieldList
+ReteAssist7
+8.206.FieldList
+ReteAssist1Giud
+8.207.FieldList
+ReteAssist2Giud
+8.208.FieldList
+ReteAssist3Giud
+8.209.FieldList
+Occupazione
+8.210.FieldList
+VitaRelazione1
+8.211.FieldList
+VitaRelazione2
+8.212.FieldList
+VitaRelazione3
+8.213.FieldList
+VitaRelazione4
+8.214.FieldList
+VitaRelazione5
+8.215.FieldList
+VitaRelazione6
+8.216.FieldList
+VitaRelazioneNote
+8.217.FieldList
+Problemi1
+8.218.FieldList
+Problemi2
+8.219.FieldList
+Patente
+8.220.FieldList
+AltreOsservazioni
+8.221.FieldList
+SedeColloquio1
+8.222.FieldList
+SedeColloquio2
+8.223.FieldList
+Intervista1
+8.224.FieldList
+Intervista2
+8.225.FieldList
+Intervista3
+8.226.FieldList
+Intervista4
+8.227.FieldList
+AssSociale
+8.228.FieldList
+GiudCapacit‡1
+8.229.FieldList
+GiudCapacit‡2
+8.230.FieldList
+GiudCapacit‡3
+8.231.FieldList
+GiudCapacit‡4
+8.232.FieldList
+GiudCapacit‡5
+8.233.FieldList
+GiudCapacit‡6
+8.234.FieldList
+GiudCapacit‡7
+8.235.FieldList
+GiudCapacit‡22
+8.236.FieldList
+GiudCapacit‡23
+8.237.FieldList
+GiudCapacit‡24
+8.238.FieldList
+GiudCapacit‡25
+8.239.FieldList
+GiudCapacit‡26
+8.240.FieldList
+Suggerimenti1
+8.241.FieldList
+Suggerimenti2
+8.242.FieldList
+Suggerimenti3
+8.243.FieldList
+Suggerimenti4
+8.244.FieldList
+GiudRivedibile
+8.245.FieldList
+GiudNote
+8.246.FieldList
+ASL
+8.247.FieldList
+Distretto
+9.0.FieldList
+Codice
+9.1.FieldList
+Descrizione
+9.2.FieldList
+Note
+10.0.FieldList
+Prot
+10.1.FieldList
+AnnoProt
+10.2.FieldList
+Patr
+10.3.FieldList
+Ins
+10.4.FieldList
+Del
+10.5.FieldList
+Cognome
+10.6.FieldList
+Nome
+10.7.FieldList
+LuogoNascita
+10.8.FieldList
+ProvNascita
+10.9.FieldList
+DataNascita
+10.10.FieldList
+Sesso
+10.11.FieldList
+Residenza
+10.12.FieldList
+ProvRes
+10.13.FieldList
+CapRes
+10.14.FieldList
+CodFis
+10.15.FieldList
+Indirizzo
+10.16.FieldList
+NumCiv
+10.17.FieldList
+Telefono
+10.18.FieldList
+Professione
+10.19.FieldList
+StatoCivile
+10.20.FieldList
+TipoDomanda
+10.21.FieldList
+DesTipo
+10.22.FieldList
+NumCommissione
+10.23.FieldList
+Data1Invito
+10.24.FieldList
+Esito1Invito
+10.25.FieldList
+DataInvito
+10.26.FieldList
+Data2Invito
+10.27.FieldList
+Esito2Invito
+10.28.FieldList
+Ore2Invito
+10.29.FieldList
+DataDefinizione
+10.30.FieldList
+EsitoDefinitivo
+10.31.FieldList
+TipoAccertamento
+10.32.FieldList
+DataVisitaDomiciliare
+10.33.FieldList
+ImminenteVisitaDom
+10.34.FieldList
+Note
+10.35.FieldList
+Minorenne
+10.36.FieldList
+tipologia
+10.37.FieldList
+cod_tipologia
+10.38.FieldList
+ore1Invito
+10.39.FieldList
+DesTipo2
+10.40.FieldList
+DesTipo3
+10.41.FieldList
+CodProvvRiconosciuto
+10.42.FieldList
+DesProvvRiconosciuto
+10.43.FieldList
+rogatoria
+10.44.FieldList
+Punteggio
+10.45.FieldList
+DataProvvDef
+10.46.FieldList
+DataCMP
+10.47.FieldList
+ProtCMP
+10.48.FieldList
+DesParere
+10.49.FieldList
+Punteggio2
+10.50.FieldList
+DataProvvedimentoDef
+10.51.FieldList
+DataDecorrenza
+10.52.FieldList
+DataRevisione
+10.53.FieldList
+DataProtComune
+10.54.FieldList
+ProtComune
+10.55.FieldList
+DataNotifica
+10.56.FieldList
+ProtNotifica
+10.57.FieldList
+Chiarimenti
+10.58.FieldList
+Note2
+10.59.FieldList
+EsitoDefinitivo2
+10.60.FieldList
+Data_Visita_Domic
+10.61.FieldList
+Data_Esito_Defin
+10.62.FieldList
+Annotazioni
+10.63.FieldList
+CodProvvedRicon2
+10.64.FieldList
+DesProvvedRicon2
+10.65.FieldList
+DataChiarimenti
+10.66.FieldList
+DurataBeneficio
+10.67.FieldList
+DataInvitoSys1
+10.68.FieldList
+DataInvitoSys2
+10.69.FieldList
+Cod_Utente
+10.70.FieldList
+Revoca_Del
+10.71.FieldList
+Decreto_n∞
+10.72.FieldList
+Posizione_n∞
+10.73.FieldList
+Prot_Revoca
+10.74.FieldList
+Data_Prot_Revoca
+10.75.FieldList
+Dottore1
+10.76.FieldList
+Dottore2
+10.77.FieldList
+Dottore3
+10.78.FieldList
+Dottore4
+10.79.FieldList
+Dottore5
+10.80.FieldList
+Specialista1
+10.81.FieldList
+Specialista2
+10.82.FieldList
+Ass_Sociale
+10.83.FieldList
+Presidente
+10.84.FieldList
+DataSys
+10.85.FieldList
+Med_Domiciliare1
+10.86.FieldList
+Med_Domiciliare2
+10.87.FieldList
+Med_Domiciliare3
+10.88.FieldList
+Med_Domiciliare4
+10.89.FieldList
+Med_Domiciliare5
+10.90.FieldList
+Med_Domiciliare6
+10.91.FieldList
+Fuori_servizio
+10.92.FieldList
+Data_Parere_Favorevole
+10.93.FieldList
+DataRevisioneIstanza1
+10.94.FieldList
+LogUser
+10.95.FieldList
+DataDiffida
+10.96.FieldList
+ProtDiffida
+10.97.FieldList
+Faldone
+10.98.FieldList
+ProtInvito
+10.99.FieldList
+ProtInvito2
+10.100.FieldList
+Tut_Cognome
+10.101.FieldList
+Tut_Nome
+10.102.FieldList
+Tut_LuogoNascita
+10.103.FieldList
+Tut_ProvNascita
+10.104.FieldList
+Tut_DataNascita
+10.105.FieldList
+Tut_Sesso
+10.106.FieldList
+Tut_Residenza
+10.107.FieldList
+Tut_ProvRes
+10.108.FieldList
+Tut_CapRes
+10.109.FieldList
+Tut_CodFis
+10.110.FieldList
+Tut_Indirizzo
+10.111.FieldList
+Tut_NumCiv
+10.112.FieldList
+Tut_Telefono
+10.113.FieldList
+Tut_Professione
+10.114.FieldList
+Tut_StatoCivile
+10.115.FieldList
+Tut_Note
+10.116.FieldList
+Patr_Patr
+10.117.FieldList
+Patr_Nome
+10.118.FieldList
+Patr_Telefono
+10.119.FieldList
+Patr_Residenza
+10.120.FieldList
+Patr_ProvRes
+10.121.FieldList
+Patr_CapRes
+10.122.FieldList
+Patr_Indirizzo
+10.123.FieldList
+Patr_NumCiv
+10.124.FieldList
+Patr_Note
+10.125.FieldList
+EnteRevocante
+10.126.FieldList
+Prot_Verbale_CMP
+10.127.FieldList
+Data_Chiusura_Verbale
+10.128.FieldList
+ASL
+10.129.FieldList
+Distretto
+11.0.FieldList
+Codice
+11.1.FieldList
+Descrizione
+11.2.FieldList
+Note
+12.0.FieldList
+Codice
+12.1.FieldList
+Descrizione
+12.2.FieldList
+Note
+13.0.FieldList
+Codice
+13.1.FieldList
+Descrizione
+13.2.FieldList
+Note
+13.3.FieldList
+Punteggio
+14.0.FieldList
+Codice
+14.1.FieldList
+Descrizione
+14.2.FieldList
+Note
+14.3.FieldList
+Punteggio
+15.0.FieldList
+Cod_Utente
+15.1.FieldList
+Archivio
+15.2.FieldList
+Cognome
+15.3.FieldList
+Nome
+15.4.FieldList
+Sesso
+15.5.FieldList
+DataNascita
+15.6.FieldList
+LuogoNascita
+15.7.FieldList
+ProvNascita
+15.8.FieldList
+CodFis
+15.9.FieldList
+Telefono
+15.10.FieldList
+Professione
+15.11.FieldList
+StatoCivile
+15.12.FieldList
+Minorenne
+15.13.FieldList
+Residenza
+15.14.FieldList
+ProvRes
+15.15.FieldList
+CapRes
+15.16.FieldList
+Indirizzo
+15.17.FieldList
+NumCiv
+15.18.FieldList
+AnnoProt
+15.19.FieldList
+Prot
+15.20.FieldList
+Del
+15.21.FieldList
+TipoDomanda
+15.22.FieldList
+DesTipo
+15.23.FieldList
+Ins
+15.24.FieldList
+cod_tipologia
+15.25.FieldList
+NumCommissione
+15.26.FieldList
+rogatoria
+15.27.FieldList
+Dottore1
+15.28.FieldList
+Dottore2
+15.29.FieldList
+Dottore3
+15.30.FieldList
+Presidente
+15.31.FieldList
+Fuori_servizio
+15.32.FieldList
+Revisione
+15.33.FieldList
+MotivoDomanda
+15.34.FieldList
+TipoAccertamento
+15.35.FieldList
+MotivoAccertamento
+15.36.FieldList
+Anamnesi
+15.37.FieldList
+Accertamenti
+15.38.FieldList
+Documentazione
+15.39.FieldList
+CommissioneAccerta
+15.40.FieldList
+Disabilita1
+15.41.FieldList
+Disabilita2
+15.42.FieldList
+Disabilita3
+15.43.FieldList
+Disabilita4
+15.44.FieldList
+Disabilita5
+15.45.FieldList
+Disabilita6
+15.46.FieldList
+Disabilita7
+15.47.FieldList
+Disabilita8
+15.48.FieldList
+Disabilita9
+15.49.FieldList
+Disabilita10
+15.50.FieldList
+Cause1
+15.51.FieldList
+Cause2
+15.52.FieldList
+Cause3
+15.53.FieldList
+Cause4
+15.54.FieldList
+Cause5
+15.55.FieldList
+Cause6
+15.56.FieldList
+Legge1
+15.57.FieldList
+Legge2
+15.58.FieldList
+Legge3
+15.59.FieldList
+CodProvvRiconosciuto
+15.60.FieldList
+DesProvvRiconosciuto
+15.61.FieldList
+Punteggio
+15.62.FieldList
+PunteggioFinale
+15.63.FieldList
+ASL
+15.64.FieldList
+Distretto
+16.0.FieldList
+Cod_Utente
+16.1.FieldList
+Archivio
+16.2.FieldList
+Gruppo
+16.3.FieldList
+Codice
+16.4.FieldList
+DescrizioneDiagnosi
+16.5.FieldList
+Tipo
+16.6.FieldList
+Punteggio
+16.7.FieldList
+ASL
+16.8.FieldList
+Distretto
+17.0.FieldList
+DataInvio
+17.1.FieldList
+Lettera
+17.2.FieldList
+Tipo
+17.3.FieldList
+DataInvito
+17.4.FieldList
+OraInvito
+17.5.FieldList
+Protocollo
+17.6.FieldList
+DataProtocollo
+17.7.FieldList
+Archivio
+17.8.FieldList
+Commissione
+17.9.FieldList
+ASL
+17.10.FieldList
+Distretto
+18.0.FieldList
+Cau_Cod
+18.1.FieldList
+Cau_Des
+18.2.FieldList
+Cau_Flag
+19.0.FieldList
+Com_Cod_Istat
+19.1.FieldList
+Com_Cod_Istat2
+19.2.FieldList
+Com_Cod_Fis
+19.3.FieldList
+Com_Des
+19.4.FieldList
+Dis_Cod
+19.5.FieldList
+Com_CAP
+19.6.FieldList
+Com_Sigla_Prov
+19.7.FieldList
+Reg_Cod
+19.8.FieldList
+Com_Reg_Des
+19.9.FieldList
+ASL_Cod
+19.10.FieldList
+Com_Flag
+20.0.FieldList
+Archivio
+20.1.FieldList
+Anno
+20.2.FieldList
+Prot
+20.3.FieldList
+Tipo
+20.4.FieldList
+Documento
+20.5.FieldList
+ASL
+20.6.FieldList
+Distretto
+21.0.FieldList
+CodiceAsl
+21.1.FieldList
+DescrizioneAsl
+21.2.FieldList
+CodiceEnte
+21.3.FieldList
+DescrizioneEnte
+21.4.FieldList
+Servizio
+21.5.FieldList
+Ufficio
+21.6.FieldList
+Indirizzo
+21.7.FieldList
+Citta
+21.8.FieldList
+Telefono1
+21.9.FieldList
+Telefono2
+21.10.FieldList
+Telefono3
+21.11.FieldList
+Fax
+21.12.FieldList
+Responsabile
+21.13.FieldList
+CodiceFiscale
+21.14.FieldList
+PartitaIva
+21.15.FieldList
+DirettoreAmmistrativo
+21.16.FieldList
+CapoServizio
+21.17.FieldList
+Rigo1
+21.18.FieldList
+Rigo2
+21.19.FieldList
+Rigo3
+21.20.FieldList
+Com_Sigla_Prov
+21.21.FieldList
+Dis_Cod
+21.22.FieldList
+PieDiPaginaStampe
+21.23.FieldList
+UnitaBackup
+21.24.FieldList
+UtilDiffida
+21.25.FieldList
+Retrib_Pres_Presid
+21.26.FieldList
+Retrib_Pres_Med
+21.27.FieldList
+Retrib_Pratica_Def
+21.28.FieldList
+Retrib_VisitaSede
+21.29.FieldList
+Retrib_VisitaFuoriSede
+21.30.FieldList
+ASL
+21.31.FieldList
+Distretto
+21.32.FieldList
+Distretto1
+21.33.FieldList
+Distretto2
+22.0.FieldList
+Cod
+22.1.FieldList
+Prot
+22.2.FieldList
+AnnoProt
+22.3.FieldList
+DataInvito
+22.4.FieldList
+OraInvito
+22.5.FieldList
+Protocollo
+22.6.FieldList
+DataProt
+22.7.FieldList
+Inviata
+22.8.FieldList
+DataSys
+22.9.FieldList
+TipoInvito
+22.10.FieldList
+Cod_Utente
+22.11.FieldList
+Archivio
+22.12.FieldList
+Commissione
+22.13.FieldList
+Dest_Cognome
+22.14.FieldList
+Dest_Nome
+22.15.FieldList
+Dest_Indirizzo
+22.16.FieldList
+Dest_NumCiv
+22.17.FieldList
+Dest_Cap
+22.18.FieldList
+Dest_Citta
+22.19.FieldList
+Dest_Prov
+22.20.FieldList
+ASL
+22.21.FieldList
+Distretto
+23.0.FieldList
+Cod
+23.1.FieldList
+Prot
+23.2.FieldList
+AnnoProt
+23.3.FieldList
+DataInvito
+23.4.FieldList
+OraInvito
+23.5.FieldList
+Protocollo
+23.6.FieldList
+DataProt
+23.7.FieldList
+Inviata
+23.8.FieldList
+DataSys
+23.9.FieldList
+TipoInvito
+23.10.FieldList
+Cod_Utente
+23.11.FieldList
+Archivio
+23.12.FieldList
+Commissione
+23.13.FieldList
+Dest_Cognome
+23.14.FieldList
+Dest_Nome
+23.15.FieldList
+Dest_Indirizzo
+23.16.FieldList
+Dest_NumCiv
+23.17.FieldList
+Dest_Cap
+23.18.FieldList
+Dest_Citta
+23.19.FieldList
+Dest_Prov
+23.20.FieldList
+ASL
+23.21.FieldList
+Distretto
+24.0.FieldList
+TRe_Cod
+24.1.FieldList
+Loc_App
+24.2.FieldList
+Loc_NumTer
+24.3.FieldList
+Loc_Prog
+24.4.FieldList
+Loc_Date
+25.0.FieldList
+Cod
+25.1.FieldList
+Des
+26.0.FieldList
+ser_cod
+26.1.FieldList
+ser_serialnumber
+26.2.FieldList
+ser_codsblocco
+26.3.FieldList
+ASL
+26.4.FieldList
+Distretto
+27.0.FieldList
+Codice
+27.1.FieldList
+Descrizione
+28.0.FieldList
+Periodo
+28.1.FieldList
+Data
+28.2.FieldList
+AmbulatorialiInv
+28.3.FieldList
+DomiciliariInv
+28.4.FieldList
+RevisioneLavoroInv
+28.5.FieldList
+AssentiInv
+28.6.FieldList
+AccertamentiInv
+28.7.FieldList
+Ambulatoriali104
+28.8.FieldList
+Domiciliari104
+28.9.FieldList
+RevisioneLavoro104
+28.10.FieldList
+Assenti104
+28.11.FieldList
+Accertamenti104
+28.12.FieldList
+IstanzePervenuteInv
+28.13.FieldList
+IstanzePervenute104
+28.14.FieldList
+InvDaInvitareInvCiv
+28.15.FieldList
+InvDaInvitareCiechi
+28.16.FieldList
+InvDaInvitareSordomuti
+28.17.FieldList
+InvDaInvitareRevisione
+28.18.FieldList
+InvDaInvitareRevLavoro
+28.19.FieldList
+InvDaInvitareMinorenni
+28.20.FieldList
+InvAssentiInvCiv
+28.21.FieldList
+InvAssentiCiechi
+28.22.FieldList
+InvAssentiSordomuti
+28.23.FieldList
+InvAssentiRevisione
+28.24.FieldList
+InvAssentiRevLavoro
+28.25.FieldList
+InvAssentiMinorenni
+28.26.FieldList
+InvDaDefinireInvCiv
+28.27.FieldList
+InvDaDefinireCiechi
+28.28.FieldList
+InvDaDefinireSordomuti
+28.29.FieldList
+InvDaDefinireRevisione
+28.30.FieldList
+InvDaDefinireRevLavoro
+28.31.FieldList
+InvDaDefinireMinorenni
+28.32.FieldList
+InvAccertamentiInvCiv
+28.33.FieldList
+InvAccertamentiCiechi
+28.34.FieldList
+InvAccertamentiSordomuti
+28.35.FieldList
+InvAccertamentiRevisione
+28.36.FieldList
+InvAccertamentiRevLavoro
+28.37.FieldList
+InvAccertamentiMinorenni
+28.38.FieldList
+104DaInvitareOculista
+28.39.FieldList
+104DaInvitareORL
+28.40.FieldList
+104DaInvitareChirurgo
+28.41.FieldList
+104DaInvitarePsichiatra
+28.42.FieldList
+104DaInvitareNeurologo
+28.43.FieldList
+104DaInvitareInternista
+28.44.FieldList
+104DaInvitareOrtopedico
+28.45.FieldList
+104AssentiOculista
+28.46.FieldList
+104AssentiORL
+28.47.FieldList
+104AssentiChirurgo
+28.48.FieldList
+104AssentiPsichiatra
+28.49.FieldList
+104AssentiNeurologo
+28.50.FieldList
+104AssentiInternista
+28.51.FieldList
+104AssentiOrtopedico
+28.52.FieldList
+104DaDefinireOculista
+28.53.FieldList
+104DaDefinireORL
+28.54.FieldList
+104DaDefinireChirurgo
+28.55.FieldList
+104DaDefinirePsichiatra
+28.56.FieldList
+104DaDefinireNeurologo
+28.57.FieldList
+104DaDefinireInternista
+28.58.FieldList
+104DaDefinireOrtopedico
+28.59.FieldList
+104AccertamentiOculista
+28.60.FieldList
+104AccertamentiORL
+28.61.FieldList
+104AccertamentiChirurgo
+28.62.FieldList
+104AccertamentiPsichiatra
+28.63.FieldList
+104AccertamentiNeurologo
+28.64.FieldList
+104AccertamentiInternista
+28.65.FieldList
+104AccertamentiOrtopedico
+28.66.FieldList
+PrimaIstanzaInv
+28.67.FieldList
+PrimaIstanza104
+28.68.FieldList
+SpedizioneCMPInv
+28.69.FieldList
+SpedizioneCMP104
+28.70.FieldList
+RispostaCMPInv
+28.71.FieldList
+RispostaCMP104
+28.72.FieldList
+SpedizioniComuniInv
+28.73.FieldList
+NotificheInteressatiInv
+28.74.FieldList
+NotificheInteressati104
+28.75.FieldList
+ChiarimentiPervenutiInv
+28.76.FieldList
+ChiarimentiPervenuti104
+28.77.FieldList
+TotDaInvitareInv
+28.78.FieldList
+TotAssentiInv
+28.79.FieldList
+TotdaDefinireInv
+28.80.FieldList
+TotAccertamentiInv
+28.81.FieldList
+TotAssenti104
+28.82.FieldList
+TotDaInvitare104
+28.83.FieldList
+TotdaDefinire104
+28.84.FieldList
+TotAccertamenti104
+28.85.FieldList
+SeduteInv
+28.86.FieldList
+Sedute104
+28.87.FieldList
+SeduteTot
+28.88.FieldList
+ASL
+28.89.FieldList
+Distretto
+29.0.FieldList
+ID
+29.1.FieldList
+Tipo
+29.2.FieldList
+Query
+30.0.FieldList
+Cod
+30.1.FieldList
+Descrizione
+30.2.FieldList
+Rigo(0)
+30.3.FieldList
+Rigo(1)
+30.4.FieldList
+Rigo(2)
+30.5.FieldList
+Rigo(3)
+30.6.FieldList
+Rigo(4)
+30.7.FieldList
+Rigo(5)
+30.8.FieldList
+Rigo(6)
+30.9.FieldList
+Rigo(7)
+30.10.FieldList
+Rigo(8)
+30.11.FieldList
+Rigo(9)
+30.12.FieldList
+Rigo(10)
+30.13.FieldList
+Rigo(11)
+30.14.FieldList
+Rigo(12)
+30.15.FieldList
+Rigo(13)
+30.16.FieldList
+Rigo(14)
+30.17.FieldList
+Rigo(15)
+30.18.FieldList
+Rigo(16)
+30.19.FieldList
+Rigo(17)
+30.20.FieldList
+Rigo(18)
+30.21.FieldList
+Rigo(19)
+30.22.FieldList
+Rigo(20)
+30.23.FieldList
+Rigo(21)
+30.24.FieldList
+Rigo(22)
+30.25.FieldList
+Rigo(23)
+30.26.FieldList
+Rigo(24)
+30.27.FieldList
+Rigo(25)
+30.28.FieldList
+ASL
+30.29.FieldList
+Distretto
+31.0.FieldList
+Cod
+31.1.FieldList
+Descrizione
+31.2.FieldList
+Rigo(0)
+31.3.FieldList
+Rigo(1)
+31.4.FieldList
+Rigo(2)
+31.5.FieldList
+Rigo(3)
+31.6.FieldList
+Rigo(4)
+31.7.FieldList
+Rigo(5)
+31.8.FieldList
+Rigo(6)
+31.9.FieldList
+Rigo(7)
+31.10.FieldList
+Rigo(8)
+31.11.FieldList
+Rigo(9)
+31.12.FieldList
+Rigo(10)
+31.13.FieldList
+Rigo(11)
+31.14.FieldList
+Rigo(12)
+31.15.FieldList
+Rigo(13)
+31.16.FieldList
+Rigo(14)
+31.17.FieldList
+Rigo(15)
+31.18.FieldList
+Rigo(16)
+31.19.FieldList
+Rigo(17)
+31.20.FieldList
+Rigo(18)
+31.21.FieldList
+Rigo(19)
+31.22.FieldList
+Rigo(20)
+31.23.FieldList
+Rigo(21)
+31.24.FieldList
+Rigo(22)
+31.25.FieldList
+Rigo(23)
+31.26.FieldList
+Rigo(24)
+31.27.FieldList
+Rigo(25)
+31.28.FieldList
+ASL
+31.29.FieldList
+Distretto
+32.0.FieldList
+Ute_Cod
+32.1.FieldList
+Ute_Des
+32.2.FieldList
+Ute_Pws
+32.3.FieldList
+Ute_livello
+32.4.FieldList
+Ute_Note
+32.5.FieldList
+Ute_Impost1
+32.6.FieldList
+Ute_Impost2
+32.7.FieldList
+Ute_Impost3
+32.8.FieldList
+Ute_Impost4
+32.9.FieldList
+Ute_Impost5
+32.10.FieldList
+Ute_Impost6
+32.11.FieldList
+Ute_Impost7
+32.12.FieldList
+Ute_Impost8
+32.13.FieldList
+Ute_Impost9
+32.14.FieldList
+Ute_Impost10
+32.15.FieldList
+ASL
+32.16.FieldList
+Distretto
+FieldType
+0.0.FieldType
+ 4 
+0.1.FieldType
+ 10 
+0.2.FieldType
+ 10 
+0.3.FieldType
+ 8 
+0.4.FieldType
+ 10 
+0.5.FieldType
+ 10 
+0.6.FieldType
+ 10 
+0.7.FieldType
+ 10 
+0.8.FieldType
+ 10 
+0.9.FieldType
+ 10 
+0.10.FieldType
+ 10 
+0.11.FieldType
+ 10 
+0.12.FieldType
+ 10 
+0.13.FieldType
+ 10 
+0.14.FieldType
+ 10 
+0.15.FieldType
+ 10 
+0.16.FieldType
+ 10 
+0.17.FieldType
+ 8 
+0.18.FieldType
+ 10 
+0.19.FieldType
+ 10 
+0.20.FieldType
+ 4 
+1.0.FieldType
+ 4 
+1.1.FieldType
+ 10 
+1.2.FieldType
+ 10 
+1.3.FieldType
+ 8 
+1.4.FieldType
+ 10 
+1.5.FieldType
+ 10 
+1.6.FieldType
+ 10 
+1.7.FieldType
+ 10 
+1.8.FieldType
+ 10 
+1.9.FieldType
+ 10 
+1.10.FieldType
+ 10 
+1.11.FieldType
+ 10 
+1.12.FieldType
+ 10 
+1.13.FieldType
+ 10 
+1.14.FieldType
+ 10 
+1.15.FieldType
+ 8 
+1.16.FieldType
+ 10 
+2.0.FieldType
+ 4 
+2.1.FieldType
+ 8 
+2.2.FieldType
+ 10 
+2.3.FieldType
+ 10 
+2.4.FieldType
+ 1 
+2.5.FieldType
+ 10 
+2.6.FieldType
+ 1 
+2.7.FieldType
+ 10 
+2.8.FieldType
+ 1 
+2.9.FieldType
+ 10 
+2.10.FieldType
+ 1 
+2.11.FieldType
+ 10 
+2.12.FieldType
+ 1 
+2.13.FieldType
+ 10 
+2.14.FieldType
+ 1 
+2.15.FieldType
+ 4 
+2.16.FieldType
+ 10 
+2.17.FieldType
+ 10 
+2.18.FieldType
+ 10 
+2.19.FieldType
+ 4 
+3.0.FieldType
+ 4 
+3.1.FieldType
+ 7 
+3.2.FieldType
+ 8 
+3.3.FieldType
+ 7 
+3.4.FieldType
+ 4 
+3.5.FieldType
+ 7 
+3.6.FieldType
+ 10 
+3.7.FieldType
+ 7 
+3.8.FieldType
+ 10 
+3.9.FieldType
+ 7 
+3.10.FieldType
+ 10 
+3.11.FieldType
+ 7 
+3.12.FieldType
+ 10 
+3.13.FieldType
+ 7 
+3.14.FieldType
+ 10 
+3.15.FieldType
+ 7 
+3.16.FieldType
+ 10 
+3.17.FieldType
+ 8 
+3.18.FieldType
+ 10 
+3.19.FieldType
+ 4 
+4.0.FieldType
+ 4 
+4.1.FieldType
+ 10 
+4.2.FieldType
+ 4 
+4.3.FieldType
+ 4 
+4.4.FieldType
+ 7 
+4.5.FieldType
+ 10 
+4.6.FieldType
+ 10 
+5.0.FieldType
+ 4 
+5.1.FieldType
+ 4 
+5.2.FieldType
+ 10 
+5.3.FieldType
+ 4 
+5.4.FieldType
+ 4 
+5.5.FieldType
+ 4 
+6.0.FieldType
+ 4 
+6.1.FieldType
+ 10 
+7.0.FieldType
+ 7 
+7.1.FieldType
+ 10 
+7.2.FieldType
+ 10 
+7.3.FieldType
+ 8 
+7.4.FieldType
+ 8 
+7.5.FieldType
+ 10 
+7.6.FieldType
+ 10 
+7.7.FieldType
+ 10 
+7.8.FieldType
+ 10 
+7.9.FieldType
+ 8 
+7.10.FieldType
+ 10 
+7.11.FieldType
+ 10 
+7.12.FieldType
+ 10 
+7.13.FieldType
+ 4 
+7.14.FieldType
+ 10 
+7.15.FieldType
+ 10 
+7.16.FieldType
+ 10 
+7.17.FieldType
+ 10 
+7.18.FieldType
+ 10 
+7.19.FieldType
+ 10 
+7.20.FieldType
+ 10 
+7.21.FieldType
+ 10 
+7.22.FieldType
+ 4 
+7.23.FieldType
+ 8 
+7.24.FieldType
+ 10 
+7.25.FieldType
+ 8 
+7.26.FieldType
+ 8 
+7.27.FieldType
+ 10 
+7.28.FieldType
+ 10 
+7.29.FieldType
+ 8 
+7.30.FieldType
+ 10 
+7.31.FieldType
+ 10 
+7.32.FieldType
+ 8 
+7.33.FieldType
+ 10 
+7.34.FieldType
+ 10 
+7.35.FieldType
+ 1 
+7.36.FieldType
+ 10 
+7.37.FieldType
+ 10 
+7.38.FieldType
+ 10 
+7.39.FieldType
+ 10 
+7.40.FieldType
+ 10 
+7.41.FieldType
+ 10 
+7.42.FieldType
+ 10 
+7.43.FieldType
+ 1 
+7.44.FieldType
+ 4 
+7.45.FieldType
+ 8 
+7.46.FieldType
+ 8 
+7.47.FieldType
+ 10 
+7.48.FieldType
+ 10 
+7.49.FieldType
+ 4 
+7.50.FieldType
+ 8 
+7.51.FieldType
+ 8 
+7.52.FieldType
+ 8 
+7.53.FieldType
+ 8 
+7.54.FieldType
+ 10 
+7.55.FieldType
+ 8 
+7.56.FieldType
+ 10 
+7.57.FieldType
+ 10 
+7.58.FieldType
+ 10 
+7.59.FieldType
+ 10 
+7.60.FieldType
+ 8 
+7.61.FieldType
+ 8 
+7.62.FieldType
+ 10 
+7.63.FieldType
+ 10 
+7.64.FieldType
+ 10 
+7.65.FieldType
+ 8 
+7.66.FieldType
+ 10 
+7.67.FieldType
+ 10 
+7.68.FieldType
+ 10 
+7.69.FieldType
+ 4 
+7.70.FieldType
+ 10 
+7.71.FieldType
+ 10 
+7.72.FieldType
+ 10 
+7.73.FieldType
+ 10 
+7.74.FieldType
+ 10 
+7.75.FieldType
+ 10 
+7.76.FieldType
+ 10 
+7.77.FieldType
+ 10 
+7.78.FieldType
+ 10 
+7.79.FieldType
+ 8 
+7.80.FieldType
+ 10 
+7.81.FieldType
+ 10 
+7.82.FieldType
+ 10 
+7.83.FieldType
+ 8 
+7.84.FieldType
+ 8 
+7.85.FieldType
+ 10 
+7.86.FieldType
+ 10 
+7.87.FieldType
+ 10 
+7.88.FieldType
+ 10 
+7.89.FieldType
+ 10 
+7.90.FieldType
+ 10 
+7.91.FieldType
+ 10 
+7.92.FieldType
+ 8 
+7.93.FieldType
+ 8 
+7.94.FieldType
+ 10 
+7.95.FieldType
+ 8 
+7.96.FieldType
+ 10 
+7.97.FieldType
+ 10 
+7.98.FieldType
+ 10 
+7.99.FieldType
+ 10 
+7.100.FieldType
+ 10 
+7.101.FieldType
+ 10 
+7.102.FieldType
+ 10 
+7.103.FieldType
+ 10 
+7.104.FieldType
+ 8 
+7.105.FieldType
+ 10 
+7.106.FieldType
+ 10 
+7.107.FieldType
+ 10 
+7.108.FieldType
+ 4 
+7.109.FieldType
+ 10 
+7.110.FieldType
+ 10 
+7.111.FieldType
+ 10 
+7.112.FieldType
+ 10 
+7.113.FieldType
+ 10 
+7.114.FieldType
+ 10 
+7.115.FieldType
+ 10 
+7.116.FieldType
+ 10 
+7.117.FieldType
+ 10 
+7.118.FieldType
+ 10 
+7.119.FieldType
+ 10 
+7.120.FieldType
+ 10 
+7.121.FieldType
+ 4 
+7.122.FieldType
+ 10 
+7.123.FieldType
+ 10 
+7.124.FieldType
+ 10 
+7.125.FieldType
+ 10 
+7.126.FieldType
+ 10 
+7.127.FieldType
+ 8 
+7.128.FieldType
+ 10 
+7.129.FieldType
+ 4 
+8.0.FieldType
+ 4 
+8.1.FieldType
+ 7 
+8.2.FieldType
+ 10 
+8.3.FieldType
+ 8 
+8.4.FieldType
+ 10 
+8.5.FieldType
+ 10 
+8.6.FieldType
+ 10 
+8.7.FieldType
+ 10 
+8.8.FieldType
+ 8 
+8.9.FieldType
+ 10 
+8.10.FieldType
+ 10 
+8.11.FieldType
+ 10 
+8.12.FieldType
+ 10 
+8.13.FieldType
+ 10 
+8.14.FieldType
+ 10 
+8.15.FieldType
+ 10 
+8.16.FieldType
+ 4 
+8.17.FieldType
+ 10 
+8.18.FieldType
+ 10 
+8.19.FieldType
+ 10 
+8.20.FieldType
+ 8 
+8.21.FieldType
+ 4 
+8.22.FieldType
+ 8 
+8.23.FieldType
+ 10 
+8.24.FieldType
+ 10 
+8.25.FieldType
+ 10 
+8.26.FieldType
+ 10 
+8.27.FieldType
+ 10 
+8.28.FieldType
+ 8 
+8.29.FieldType
+ 10 
+8.30.FieldType
+ 8 
+8.31.FieldType
+ 4 
+8.32.FieldType
+ 10 
+8.33.FieldType
+ 10 
+8.34.FieldType
+ 10 
+8.35.FieldType
+ 10 
+8.36.FieldType
+ 10 
+8.37.FieldType
+ 10 
+8.38.FieldType
+ 10 
+8.39.FieldType
+ 10 
+8.40.FieldType
+ 8 
+8.41.FieldType
+ 10 
+8.42.FieldType
+ 10 
+8.43.FieldType
+ 10 
+8.44.FieldType
+ 8 
+8.45.FieldType
+ 10 
+8.46.FieldType
+ 10 
+8.47.FieldType
+ 10 
+8.48.FieldType
+ 8 
+8.49.FieldType
+ 10 
+8.50.FieldType
+ 10 
+8.51.FieldType
+ 10 
+8.52.FieldType
+ 10 
+8.53.FieldType
+ 10 
+8.54.FieldType
+ 10 
+8.55.FieldType
+ 10 
+8.56.FieldType
+ 8 
+8.57.FieldType
+ 10 
+8.58.FieldType
+ 10 
+8.59.FieldType
+ 10 
+8.60.FieldType
+ 10 
+8.61.FieldType
+ 8 
+8.62.FieldType
+ 4 
+8.63.FieldType
+ 8 
+8.64.FieldType
+ 10 
+8.65.FieldType
+ 10 
+8.66.FieldType
+ 10 
+8.67.FieldType
+ 10 
+8.68.FieldType
+ 10 
+8.69.FieldType
+ 10 
+8.70.FieldType
+ 4 
+8.71.FieldType
+ 8 
+8.72.FieldType
+ 10 
+8.73.FieldType
+ 8 
+8.74.FieldType
+ 10 
+8.75.FieldType
+ 8 
+8.76.FieldType
+ 8 
+8.77.FieldType
+ 10 
+8.78.FieldType
+ 8 
+8.79.FieldType
+ 10 
+8.80.FieldType
+ 10 
+8.81.FieldType
+ 10 
+8.82.FieldType
+ 10 
+8.83.FieldType
+ 10 
+8.84.FieldType
+ 10 
+8.85.FieldType
+ 10 
+8.86.FieldType
+ 10 
+8.87.FieldType
+ 10 
+8.88.FieldType
+ 10 
+8.89.FieldType
+ 10 
+8.90.FieldType
+ 10 
+8.91.FieldType
+ 10 
+8.92.FieldType
+ 10 
+8.93.FieldType
+ 10 
+8.94.FieldType
+ 10 
+8.95.FieldType
+ 10 
+8.96.FieldType
+ 10 
+8.97.FieldType
+ 10 
+8.98.FieldType
+ 10 
+8.99.FieldType
+ 10 
+8.100.FieldType
+ 10 
+8.101.FieldType
+ 10 
+8.102.FieldType
+ 10 
+8.103.FieldType
+ 10 
+8.104.FieldType
+ 10 
+8.105.FieldType
+ 10 
+8.106.FieldType
+ 10 
+8.107.FieldType
+ 10 
+8.108.FieldType
+ 10 
+8.109.FieldType
+ 10 
+8.110.FieldType
+ 10 
+8.111.FieldType
+ 10 
+8.112.FieldType
+ 10 
+8.113.FieldType
+ 10 
+8.114.FieldType
+ 10 
+8.115.FieldType
+ 10 
+8.116.FieldType
+ 10 
+8.117.FieldType
+ 10 
+8.118.FieldType
+ 10 
+8.119.FieldType
+ 10 
+8.120.FieldType
+ 10 
+8.121.FieldType
+ 10 
+8.122.FieldType
+ 10 
+8.123.FieldType
+ 10 
+8.124.FieldType
+ 10 
+8.125.FieldType
+ 10 
+8.126.FieldType
+ 10 
+8.127.FieldType
+ 10 
+8.128.FieldType
+ 10 
+8.129.FieldType
+ 10 
+8.130.FieldType
+ 10 
+8.131.FieldType
+ 10 
+8.132.FieldType
+ 10 
+8.133.FieldType
+ 10 
+8.134.FieldType
+ 10 
+8.135.FieldType
+ 10 
+8.136.FieldType
+ 10 
+8.137.FieldType
+ 10 
+8.138.FieldType
+ 10 
+8.139.FieldType
+ 10 
+8.140.FieldType
+ 10 
+8.141.FieldType
+ 10 
+8.142.FieldType
+ 10 
+8.143.FieldType
+ 10 
+8.144.FieldType
+ 10 
+8.145.FieldType
+ 10 
+8.146.FieldType
+ 10 
+8.147.FieldType
+ 10 
+8.148.FieldType
+ 10 
+8.149.FieldType
+ 10 
+8.150.FieldType
+ 10 
+8.151.FieldType
+ 10 
+8.152.FieldType
+ 10 
+8.153.FieldType
+ 10 
+8.154.FieldType
+ 10 
+8.155.FieldType
+ 10 
+8.156.FieldType
+ 10 
+8.157.FieldType
+ 10 
+8.158.FieldType
+ 10 
+8.159.FieldType
+ 10 
+8.160.FieldType
+ 10 
+8.161.FieldType
+ 10 
+8.162.FieldType
+ 10 
+8.163.FieldType
+ 10 
+8.164.FieldType
+ 10 
+8.165.FieldType
+ 10 
+8.166.FieldType
+ 10 
+8.167.FieldType
+ 10 
+8.168.FieldType
+ 10 
+8.169.FieldType
+ 10 
+8.170.FieldType
+ 10 
+8.171.FieldType
+ 10 
+8.172.FieldType
+ 10 
+8.173.FieldType
+ 10 
+8.174.FieldType
+ 10 
+8.175.FieldType
+ 10 
+8.176.FieldType
+ 10 
+8.177.FieldType
+ 10 
+8.178.FieldType
+ 10 
+8.179.FieldType
+ 10 
+8.180.FieldType
+ 10 
+8.181.FieldType
+ 10 
+8.182.FieldType
+ 10 
+8.183.FieldType
+ 10 
+8.184.FieldType
+ 10 
+8.185.FieldType
+ 10 
+8.186.FieldType
+ 10 
+8.187.FieldType
+ 10 
+8.188.FieldType
+ 10 
+8.189.FieldType
+ 10 
+8.190.FieldType
+ 10 
+8.191.FieldType
+ 10 
+8.192.FieldType
+ 10 
+8.193.FieldType
+ 10 
+8.194.FieldType
+ 10 
+8.195.FieldType
+ 10 
+8.196.FieldType
+ 10 
+8.197.FieldType
+ 10 
+8.198.FieldType
+ 10 
+8.199.FieldType
+ 10 
+8.200.FieldType
+ 10 
+8.201.FieldType
+ 10 
+8.202.FieldType
+ 10 
+8.203.FieldType
+ 10 
+8.204.FieldType
+ 10 
+8.205.FieldType
+ 10 
+8.206.FieldType
+ 10 
+8.207.FieldType
+ 10 
+8.208.FieldType
+ 10 
+8.209.FieldType
+ 10 
+8.210.FieldType
+ 10 
+8.211.FieldType
+ 10 
+8.212.FieldType
+ 10 
+8.213.FieldType
+ 10 
+8.214.FieldType
+ 10 
+8.215.FieldType
+ 10 
+8.216.FieldType
+ 10 
+8.217.FieldType
+ 10 
+8.218.FieldType
+ 10 
+8.219.FieldType
+ 10 
+8.220.FieldType
+ 10 
+8.221.FieldType
+ 10 
+8.222.FieldType
+ 10 
+8.223.FieldType
+ 10 
+8.224.FieldType
+ 10 
+8.225.FieldType
+ 10 
+8.226.FieldType
+ 10 
+8.227.FieldType
+ 10 
+8.228.FieldType
+ 10 
+8.229.FieldType
+ 10 
+8.230.FieldType
+ 10 
+8.231.FieldType
+ 10 
+8.232.FieldType
+ 10 
+8.233.FieldType
+ 10 
+8.234.FieldType
+ 10 
+8.235.FieldType
+ 10 
+8.236.FieldType
+ 10 
+8.237.FieldType
+ 10 
+8.238.FieldType
+ 10 
+8.239.FieldType
+ 10 
+8.240.FieldType
+ 10 
+8.241.FieldType
+ 10 
+8.242.FieldType
+ 10 
+8.243.FieldType
+ 10 
+8.244.FieldType
+ 10 
+8.245.FieldType
+ 10 
+8.246.FieldType
+ 10 
+8.247.FieldType
+ 4 
+9.0.FieldType
+ 10 
+9.1.FieldType
+ 10 
+9.2.FieldType
+ 10 
+10.0.FieldType
+ 7 
+10.1.FieldType
+ 10 
+10.2.FieldType
+ 10 
+10.3.FieldType
+ 8 
+10.4.FieldType
+ 8 
+10.5.FieldType
+ 10 
+10.6.FieldType
+ 10 
+10.7.FieldType
+ 10 
+10.8.FieldType
+ 10 
+10.9.FieldType
+ 8 
+10.10.FieldType
+ 10 
+10.11.FieldType
+ 10 
+10.12.FieldType
+ 10 
+10.13.FieldType
+ 4 
+10.14.FieldType
+ 10 
+10.15.FieldType
+ 10 
+10.16.FieldType
+ 10 
+10.17.FieldType
+ 10 
+10.18.FieldType
+ 10 
+10.19.FieldType
+ 10 
+10.20.FieldType
+ 10 
+10.21.FieldType
+ 10 
+10.22.FieldType
+ 4 
+10.23.FieldType
+ 8 
+10.24.FieldType
+ 10 
+10.25.FieldType
+ 8 
+10.26.FieldType
+ 8 
+10.27.FieldType
+ 10 
+10.28.FieldType
+ 10 
+10.29.FieldType
+ 8 
+10.30.FieldType
+ 10 
+10.31.FieldType
+ 10 
+10.32.FieldType
+ 8 
+10.33.FieldType
+ 10 
+10.34.FieldType
+ 10 
+10.35.FieldType
+ 1 
+10.36.FieldType
+ 10 
+10.37.FieldType
+ 10 
+10.38.FieldType
+ 10 
+10.39.FieldType
+ 10 
+10.40.FieldType
+ 10 
+10.41.FieldType
+ 10 
+10.42.FieldType
+ 10 
+10.43.FieldType
+ 1 
+10.44.FieldType
+ 4 
+10.45.FieldType
+ 8 
+10.46.FieldType
+ 8 
+10.47.FieldType
+ 4 
+10.48.FieldType
+ 10 
+10.49.FieldType
+ 4 
+10.50.FieldType
+ 8 
+10.51.FieldType
+ 8 
+10.52.FieldType
+ 8 
+10.53.FieldType
+ 8 
+10.54.FieldType
+ 10 
+10.55.FieldType
+ 8 
+10.56.FieldType
+ 10 
+10.57.FieldType
+ 10 
+10.58.FieldType
+ 10 
+10.59.FieldType
+ 10 
+10.60.FieldType
+ 8 
+10.61.FieldType
+ 8 
+10.62.FieldType
+ 10 
+10.63.FieldType
+ 10 
+10.64.FieldType
+ 10 
+10.65.FieldType
+ 8 
+10.66.FieldType
+ 10 
+10.67.FieldType
+ 10 
+10.68.FieldType
+ 10 
+10.69.FieldType
+ 4 
+10.70.FieldType
+ 8 
+10.71.FieldType
+ 10 
+10.72.FieldType
+ 10 
+10.73.FieldType
+ 10 
+10.74.FieldType
+ 8 
+10.75.FieldType
+ 10 
+10.76.FieldType
+ 10 
+10.77.FieldType
+ 10 
+10.78.FieldType
+ 10 
+10.79.FieldType
+ 10 
+10.80.FieldType
+ 10 
+10.81.FieldType
+ 10 
+10.82.FieldType
+ 10 
+10.83.FieldType
+ 10 
+10.84.FieldType
+ 8 
+10.85.FieldType
+ 10 
+10.86.FieldType
+ 10 
+10.87.FieldType
+ 10 
+10.88.FieldType
+ 10 
+10.89.FieldType
+ 10 
+10.90.FieldType
+ 10 
+10.91.FieldType
+ 10 
+10.92.FieldType
+ 8 
+10.93.FieldType
+ 8 
+10.94.FieldType
+ 10 
+10.95.FieldType
+ 8 
+10.96.FieldType
+ 10 
+10.97.FieldType
+ 10 
+10.98.FieldType
+ 10 
+10.99.FieldType
+ 10 
+10.100.FieldType
+ 10 
+10.101.FieldType
+ 10 
+10.102.FieldType
+ 10 
+10.103.FieldType
+ 10 
+10.104.FieldType
+ 8 
+10.105.FieldType
+ 10 
+10.106.FieldType
+ 10 
+10.107.FieldType
+ 10 
+10.108.FieldType
+ 4 
+10.109.FieldType
+ 10 
+10.110.FieldType
+ 10 
+10.111.FieldType
+ 10 
+10.112.FieldType
+ 10 
+10.113.FieldType
+ 10 
+10.114.FieldType
+ 10 
+10.115.FieldType
+ 10 
+10.116.FieldType
+ 10 
+10.117.FieldType
+ 10 
+10.118.FieldType
+ 10 
+10.119.FieldType
+ 10 
+10.120.FieldType
+ 10 
+10.121.FieldType
+ 4 
+10.122.FieldType
+ 10 
+10.123.FieldType
+ 10 
+10.124.FieldType
+ 10 
+10.125.FieldType
+ 10 
+10.126.FieldType
+ 10 
+10.127.FieldType
+ 8 
+10.128.FieldType
+ 10 
+10.129.FieldType
+ 4 
+11.0.FieldType
+ 10 
+11.1.FieldType
+ 10 
+11.2.FieldType
+ 12 
+12.0.FieldType
+ 10 
+12.1.FieldType
+ 10 
+12.2.FieldType
+ 12 
+13.0.FieldType
+ 10 
+13.1.FieldType
+ 10 
+13.2.FieldType
+ 12 
+13.3.FieldType
+ 10 
+14.0.FieldType
+ 10 
+14.1.FieldType
+ 10 
+14.2.FieldType
+ 12 
+14.3.FieldType
+ 10 
+15.0.FieldType
+ 4 
+15.1.FieldType
+ 10 
+15.2.FieldType
+ 10 
+15.3.FieldType
+ 10 
+15.4.FieldType
+ 10 
+15.5.FieldType
+ 8 
+15.6.FieldType
+ 10 
+15.7.FieldType
+ 10 
+15.8.FieldType
+ 10 
+15.9.FieldType
+ 10 
+15.10.FieldType
+ 10 
+15.11.FieldType
+ 10 
+15.12.FieldType
+ 1 
+15.13.FieldType
+ 10 
+15.14.FieldType
+ 10 
+15.15.FieldType
+ 4 
+15.16.FieldType
+ 10 
+15.17.FieldType
+ 10 
+15.18.FieldType
+ 10 
+15.19.FieldType
+ 7 
+15.20.FieldType
+ 8 
+15.21.FieldType
+ 10 
+15.22.FieldType
+ 10 
+15.23.FieldType
+ 8 
+15.24.FieldType
+ 10 
+15.25.FieldType
+ 4 
+15.26.FieldType
+ 1 
+15.27.FieldType
+ 10 
+15.28.FieldType
+ 10 
+15.29.FieldType
+ 10 
+15.30.FieldType
+ 10 
+15.31.FieldType
+ 10 
+15.32.FieldType
+ 10 
+15.33.FieldType
+ 10 
+15.34.FieldType
+ 10 
+15.35.FieldType
+ 10 
+15.36.FieldType
+ 10 
+15.37.FieldType
+ 10 
+15.38.FieldType
+ 10 
+15.39.FieldType
+ 10 
+15.40.FieldType
+ 1 
+15.41.FieldType
+ 1 
+15.42.FieldType
+ 1 
+15.43.FieldType
+ 1 
+15.44.FieldType
+ 1 
+15.45.FieldType
+ 1 
+15.46.FieldType
+ 1 
+15.47.FieldType
+ 1 
+15.48.FieldType
+ 1 
+15.49.FieldType
+ 1 
+15.50.FieldType
+ 1 
+15.51.FieldType
+ 1 
+15.52.FieldType
+ 1 
+15.53.FieldType
+ 1 
+15.54.FieldType
+ 1 
+15.55.FieldType
+ 1 
+15.56.FieldType
+ 10 
+15.57.FieldType
+ 10 
+15.58.FieldType
+ 10 
+15.59.FieldType
+ 10 
+15.60.FieldType
+ 10 
+15.61.FieldType
+ 4 
+15.62.FieldType
+ 4 
+15.63.FieldType
+ 10 
+15.64.FieldType
+ 4 
+16.0.FieldType
+ 4 
+16.1.FieldType
+ 10 
+16.2.FieldType
+ 4 
+16.3.FieldType
+ 4 
+16.4.FieldType
+ 10 
+16.5.FieldType
+ 10 
+16.6.FieldType
+ 4 
+16.7.FieldType
+ 10 
+16.8.FieldType
+ 4 
+17.0.FieldType
+ 10 
+17.1.FieldType
+ 4 
+17.2.FieldType
+ 10 
+17.3.FieldType
+ 8 
+17.4.FieldType
+ 10 
+17.5.FieldType
+ 10 
+17.6.FieldType
+ 8 
+17.7.FieldType
+ 10 
+17.8.FieldType
+ 4 
+17.9.FieldType
+ 10 
+17.10.FieldType
+ 4 
+18.0.FieldType
+ 4 
+18.1.FieldType
+ 10 
+18.2.FieldType
+ 10 
+19.0.FieldType
+ 10 
+19.1.FieldType
+ 10 
+19.2.FieldType
+ 10 
+19.3.FieldType
+ 10 
+19.4.FieldType
+ 4 
+19.5.FieldType
+ 10 
+19.6.FieldType
+ 10 
+19.7.FieldType
+ 4 
+19.8.FieldType
+ 10 
+19.9.FieldType
+ 10 
+19.10.FieldType
+ 4 
+20.0.FieldType
+ 10 
+20.1.FieldType
+ 4 
+20.2.FieldType
+ 10 
+20.3.FieldType
+ 10 
+20.4.FieldType
+ 10 
+20.5.FieldType
+ 10 
+20.6.FieldType
+ 4 
+21.0.FieldType
+ 10 
+21.1.FieldType
+ 10 
+21.2.FieldType
+ 10 
+21.3.FieldType
+ 10 
+21.4.FieldType
+ 10 
+21.5.FieldType
+ 10 
+21.6.FieldType
+ 10 
+21.7.FieldType
+ 10 
+21.8.FieldType
+ 10 
+21.9.FieldType
+ 10 
+21.10.FieldType
+ 10 
+21.11.FieldType
+ 10 
+21.12.FieldType
+ 10 
+21.13.FieldType
+ 10 
+21.14.FieldType
+ 10 
+21.15.FieldType
+ 10 
+21.16.FieldType
+ 10 
+21.17.FieldType
+ 10 
+21.18.FieldType
+ 10 
+21.19.FieldType
+ 10 
+21.20.FieldType
+ 10 
+21.21.FieldType
+ 10 
+21.22.FieldType
+ 10 
+21.23.FieldType
+ 10 
+21.24.FieldType
+ 10 
+21.25.FieldType
+ 7 
+21.26.FieldType
+ 7 
+21.27.FieldType
+ 7 
+21.28.FieldType
+ 7 
+21.29.FieldType
+ 7 
+21.30.FieldType
+ 10 
+21.31.FieldType
+ 4 
+21.32.FieldType
+ 4 
+21.33.FieldType
+ 4 
+22.0.FieldType
+ 4 
+22.1.FieldType
+ 4 
+22.2.FieldType
+ 10 
+22.3.FieldType
+ 10 
+22.4.FieldType
+ 10 
+22.5.FieldType
+ 10 
+22.6.FieldType
+ 10 
+22.7.FieldType
+ 10 
+22.8.FieldType
+ 10 
+22.9.FieldType
+ 10 
+22.10.FieldType
+ 4 
+22.11.FieldType
+ 10 
+22.12.FieldType
+ 4 
+22.13.FieldType
+ 10 
+22.14.FieldType
+ 10 
+22.15.FieldType
+ 10 
+22.16.FieldType
+ 10 
+22.17.FieldType
+ 10 
+22.18.FieldType
+ 10 
+22.19.FieldType
+ 10 
+22.20.FieldType
+ 10 
+22.21.FieldType
+ 4 
+23.0.FieldType
+ 4 
+23.1.FieldType
+ 4 
+23.2.FieldType
+ 10 
+23.3.FieldType
+ 10 
+23.4.FieldType
+ 10 
+23.5.FieldType
+ 10 
+23.6.FieldType
+ 10 
+23.7.FieldType
+ 10 
+23.8.FieldType
+ 10 
+23.9.FieldType
+ 10 
+23.10.FieldType
+ 4 
+23.11.FieldType
+ 10 
+23.12.FieldType
+ 4 
+23.13.FieldType
+ 10 
+23.14.FieldType
+ 10 
+23.15.FieldType
+ 10 
+23.16.FieldType
+ 10 
+23.17.FieldType
+ 10 
+23.18.FieldType
+ 10 
+23.19.FieldType
+ 10 
+23.20.FieldType
+ 10 
+23.21.FieldType
+ 4 
+24.0.FieldType
+ 4 
+24.1.FieldType
+ 10 
+24.2.FieldType
+ 4 
+24.3.FieldType
+ 4 
+24.4.FieldType
+ 8 
+25.0.FieldType
+ 4 
+25.1.FieldType
+ 10 
+26.0.FieldType
+ 4 
+26.1.FieldType
+ 10 
+26.2.FieldType
+ 10 
+26.3.FieldType
+ 10 
+26.4.FieldType
+ 4 
+27.0.FieldType
+ 4 
+27.1.FieldType
+ 10 
+28.0.FieldType
+ 10 
+28.1.FieldType
+ 8 
+28.2.FieldType
+ 4 
+28.3.FieldType
+ 4 
+28.4.FieldType
+ 4 
+28.5.FieldType
+ 4 
+28.6.FieldType
+ 4 
+28.7.FieldType
+ 4 
+28.8.FieldType
+ 4 
+28.9.FieldType
+ 4 
+28.10.FieldType
+ 4 
+28.11.FieldType
+ 4 
+28.12.FieldType
+ 4 
+28.13.FieldType
+ 4 
+28.14.FieldType
+ 4 
+28.15.FieldType
+ 4 
+28.16.FieldType
+ 4 
+28.17.FieldType
+ 4 
+28.18.FieldType
+ 4 
+28.19.FieldType
+ 4 
+28.20.FieldType
+ 4 
+28.21.FieldType
+ 4 
+28.22.FieldType
+ 4 
+28.23.FieldType
+ 4 
+28.24.FieldType
+ 4 
+28.25.FieldType
+ 4 
+28.26.FieldType
+ 4 
+28.27.FieldType
+ 4 
+28.28.FieldType
+ 4 
+28.29.FieldType
+ 4 
+28.30.FieldType
+ 4 
+28.31.FieldType
+ 4 
+28.32.FieldType
+ 4 
+28.33.FieldType
+ 4 
+28.34.FieldType
+ 4 
+28.35.FieldType
+ 4 
+28.36.FieldType
+ 4 
+28.37.FieldType
+ 4 
+28.38.FieldType
+ 4 
+28.39.FieldType
+ 4 
+28.40.FieldType
+ 4 
+28.41.FieldType
+ 4 
+28.42.FieldType
+ 4 
+28.43.FieldType
+ 4 
+28.44.FieldType
+ 4 
+28.45.FieldType
+ 4 
+28.46.FieldType
+ 4 
+28.47.FieldType
+ 4 
+28.48.FieldType
+ 4 
+28.49.FieldType
+ 4 
+28.50.FieldType
+ 4 
+28.51.FieldType
+ 4 
+28.52.FieldType
+ 4 
+28.53.FieldType
+ 4 
+28.54.FieldType
+ 4 
+28.55.FieldType
+ 4 
+28.56.FieldType
+ 4 
+28.57.FieldType
+ 4 
+28.58.FieldType
+ 4 
+28.59.FieldType
+ 4 
+28.60.FieldType
+ 4 
+28.61.FieldType
+ 4 
+28.62.FieldType
+ 4 
+28.63.FieldType
+ 4 
+28.64.FieldType
+ 4 
+28.65.FieldType
+ 4 
+28.66.FieldType
+ 4 
+28.67.FieldType
+ 4 
+28.68.FieldType
+ 4 
+28.69.FieldType
+ 4 
+28.70.FieldType
+ 4 
+28.71.FieldType
+ 4 
+28.72.FieldType
+ 4 
+28.73.FieldType
+ 4 
+28.74.FieldType
+ 4 
+28.75.FieldType
+ 4 
+28.76.FieldType
+ 4 
+28.77.FieldType
+ 4 
+28.78.FieldType
+ 4 
+28.79.FieldType
+ 4 
+28.80.FieldType
+ 4 
+28.81.FieldType
+ 4 
+28.82.FieldType
+ 4 
+28.83.FieldType
+ 4 
+28.84.FieldType
+ 4 
+28.85.FieldType
+ 4 
+28.86.FieldType
+ 4 
+28.87.FieldType
+ 4 
+28.88.FieldType
+ 10 
+28.89.FieldType
+ 4 
+29.0.FieldType
+ 4 
+29.1.FieldType
+ 10 
+29.2.FieldType
+ 12 
+30.0.FieldType
+ 4 
+30.1.FieldType
+ 10 
+30.2.FieldType
+ 10 
+30.3.FieldType
+ 10 
+30.4.FieldType
+ 10 
+30.5.FieldType
+ 10 
+30.6.FieldType
+ 10 
+30.7.FieldType
+ 10 
+30.8.FieldType
+ 10 
+30.9.FieldType
+ 10 
+30.10.FieldType
+ 10 
+30.11.FieldType
+ 10 
+30.12.FieldType
+ 10 
+30.13.FieldType
+ 10 
+30.14.FieldType
+ 10 
+30.15.FieldType
+ 10 
+30.16.FieldType
+ 10 
+30.17.FieldType
+ 10 
+30.18.FieldType
+ 10 
+30.19.FieldType
+ 10 
+30.20.FieldType
+ 10 
+30.21.FieldType
+ 10 
+30.22.FieldType
+ 10 
+30.23.FieldType
+ 10 
+30.24.FieldType
+ 10 
+30.25.FieldType
+ 10 
+30.26.FieldType
+ 10 
+30.27.FieldType
+ 10 
+30.28.FieldType
+ 10 
+30.29.FieldType
+ 4 
+31.0.FieldType
+ 4 
+31.1.FieldType
+ 10 
+31.2.FieldType
+ 10 
+31.3.FieldType
+ 10 
+31.4.FieldType
+ 10 
+31.5.FieldType
+ 10 
+31.6.FieldType
+ 10 
+31.7.FieldType
+ 10 
+31.8.FieldType
+ 10 
+31.9.FieldType
+ 10 
+31.10.FieldType
+ 10 
+31.11.FieldType
+ 10 
+31.12.FieldType
+ 10 
+31.13.FieldType
+ 10 
+31.14.FieldType
+ 10 
+31.15.FieldType
+ 10 
+31.16.FieldType
+ 10 
+31.17.FieldType
+ 10 
+31.18.FieldType
+ 10 
+31.19.FieldType
+ 10 
+31.20.FieldType
+ 10 
+31.21.FieldType
+ 10 
+31.22.FieldType
+ 10 
+31.23.FieldType
+ 10 
+31.24.FieldType
+ 10 
+31.25.FieldType
+ 10 
+31.26.FieldType
+ 10 
+31.27.FieldType
+ 10 
+31.28.FieldType
+ 10 
+31.29.FieldType
+ 4 
+32.0.FieldType
+ 10 
+32.1.FieldType
+ 10 
+32.2.FieldType
+ 10 
+32.3.FieldType
+ 3 
+32.4.FieldType
+ 12 
+32.5.FieldType
+ 10 
+32.6.FieldType
+ 10 
+32.7.FieldType
+ 10 
+32.8.FieldType
+ 10 
+32.9.FieldType
+ 10 
+32.10.FieldType
+ 10 
+32.11.FieldType
+ 10 
+32.12.FieldType
+ 10 
+32.13.FieldType
+ 10 
+32.14.FieldType
+ 10 
+32.15.FieldType
+ 10 
+32.16.FieldType
+ 4 
+FieldDim
+0.0.FieldDim
+ 10 
+0.1.FieldDim
+ 50 
+0.2.FieldDim
+ 6 
+0.3.FieldDim
+ 8 
+0.4.FieldDim
+ 1 
+0.5.FieldDim
+ 50 
+0.6.FieldDim
+ 15 
+0.7.FieldDim
+ 6 
+0.8.FieldDim
+ 5 
+0.9.FieldDim
+ 50 
+0.10.FieldDim
+ 2 
+0.11.FieldDim
+ 16 
+0.12.FieldDim
+ 15 
+0.13.FieldDim
+ 15 
+0.14.FieldDim
+ 6 
+0.15.FieldDim
+ 255 
+0.16.FieldDim
+ 50 
+0.17.FieldDim
+ 8 
+0.18.FieldDim
+ 15 
+0.19.FieldDim
+ 50 
+0.20.FieldDim
+ 10 
+1.0.FieldDim
+ 10 
+1.1.FieldDim
+ 50 
+1.2.FieldDim
+ 6 
+1.3.FieldDim
+ 8 
+1.4.FieldDim
+ 1 
+1.5.FieldDim
+ 50 
+1.6.FieldDim
+ 15 
+1.7.FieldDim
+ 6 
+1.8.FieldDim
+ 5 
+1.9.FieldDim
+ 50 
+1.10.FieldDim
+ 2 
+1.11.FieldDim
+ 16 
+1.12.FieldDim
+ 15 
+1.13.FieldDim
+ 15 
+1.14.FieldDim
+ 6 
+1.15.FieldDim
+ 8 
+1.16.FieldDim
+ 15 
+2.0.FieldDim
+ 10 
+2.1.FieldDim
+ 8 
+2.2.FieldDim
+ 50 
+2.3.FieldDim
+ 255 
+2.4.FieldDim
+ 1 
+2.5.FieldDim
+ 255 
+2.6.FieldDim
+ 1 
+2.7.FieldDim
+ 255 
+2.8.FieldDim
+ 1 
+2.9.FieldDim
+ 255 
+2.10.FieldDim
+ 1 
+2.11.FieldDim
+ 255 
+2.12.FieldDim
+ 1 
+2.13.FieldDim
+ 255 
+2.14.FieldDim
+ 1 
+2.15.FieldDim
+ 10 
+2.16.FieldDim
+ 50 
+2.17.FieldDim
+ 50 
+2.18.FieldDim
+ 50 
+2.19.FieldDim
+ 10 
+3.0.FieldDim
+ 10 
+3.1.FieldDim
+ 15 
+3.2.FieldDim
+ 8 
+3.3.FieldDim
+ 15 
+3.4.FieldDim
+ 10 
+3.5.FieldDim
+ 15 
+3.6.FieldDim
+ 255 
+3.7.FieldDim
+ 15 
+3.8.FieldDim
+ 255 
+3.9.FieldDim
+ 15 
+3.10.FieldDim
+ 255 
+3.11.FieldDim
+ 15 
+3.12.FieldDim
+ 255 
+3.13.FieldDim
+ 15 
+3.14.FieldDim
+ 255 
+3.15.FieldDim
+ 15 
+3.16.FieldDim
+ 255 
+3.17.FieldDim
+ 8 
+3.18.FieldDim
+ 50 
+3.19.FieldDim
+ 10 
+4.0.FieldDim
+ 10 
+4.1.FieldDim
+ 50 
+4.2.FieldDim
+ 10 
+4.3.FieldDim
+ 10 
+4.4.FieldDim
+ 15 
+4.5.FieldDim
+ 255 
+4.6.FieldDim
+ 255 
+5.0.FieldDim
+ 10 
+5.1.FieldDim
+ 10 
+5.2.FieldDim
+ 255 
+5.3.FieldDim
+ 10 
+5.4.FieldDim
+ 10 
+5.5.FieldDim
+ 10 
+6.0.FieldDim
+ 10 
+6.1.FieldDim
+ 50 
+7.0.FieldDim
+ 15 
+7.1.FieldDim
+ 50 
+7.2.FieldDim
+ 255 
+7.3.FieldDim
+ 8 
+7.4.FieldDim
+ 8 
+7.5.FieldDim
+ 255 
+7.6.FieldDim
+ 255 
+7.7.FieldDim
+ 255 
+7.8.FieldDim
+ 255 
+7.9.FieldDim
+ 8 
+7.10.FieldDim
+ 255 
+7.11.FieldDim
+ 255 
+7.12.FieldDim
+ 255 
+7.13.FieldDim
+ 10 
+7.14.FieldDim
+ 255 
+7.15.FieldDim
+ 255 
+7.16.FieldDim
+ 255 
+7.17.FieldDim
+ 255 
+7.18.FieldDim
+ 255 
+7.19.FieldDim
+ 255 
+7.20.FieldDim
+ 255 
+7.21.FieldDim
+ 255 
+7.22.FieldDim
+ 10 
+7.23.FieldDim
+ 8 
+7.24.FieldDim
+ 255 
+7.25.FieldDim
+ 8 
+7.26.FieldDim
+ 8 
+7.27.FieldDim
+ 255 
+7.28.FieldDim
+ 255 
+7.29.FieldDim
+ 8 
+7.30.FieldDim
+ 255 
+7.31.FieldDim
+ 255 
+7.32.FieldDim
+ 8 
+7.33.FieldDim
+ 255 
+7.34.FieldDim
+ 255 
+7.35.FieldDim
+ 1 
+7.36.FieldDim
+ 255 
+7.37.FieldDim
+ 50 
+7.38.FieldDim
+ 50 
+7.39.FieldDim
+ 50 
+7.40.FieldDim
+ 50 
+7.41.FieldDim
+ 255 
+7.42.FieldDim
+ 255 
+7.43.FieldDim
+ 1 
+7.44.FieldDim
+ 10 
+7.45.FieldDim
+ 8 
+7.46.FieldDim
+ 8 
+7.47.FieldDim
+ 50 
+7.48.FieldDim
+ 255 
+7.49.FieldDim
+ 10 
+7.50.FieldDim
+ 8 
+7.51.FieldDim
+ 8 
+7.52.FieldDim
+ 8 
+7.53.FieldDim
+ 8 
+7.54.FieldDim
+ 255 
+7.55.FieldDim
+ 8 
+7.56.FieldDim
+ 255 
+7.57.FieldDim
+ 255 
+7.58.FieldDim
+ 255 
+7.59.FieldDim
+ 255 
+7.60.FieldDim
+ 8 
+7.61.FieldDim
+ 8 
+7.62.FieldDim
+ 255 
+7.63.FieldDim
+ 255 
+7.64.FieldDim
+ 255 
+7.65.FieldDim
+ 8 
+7.66.FieldDim
+ 255 
+7.67.FieldDim
+ 50 
+7.68.FieldDim
+ 50 
+7.69.FieldDim
+ 10 
+7.70.FieldDim
+ 50 
+7.71.FieldDim
+ 50 
+7.72.FieldDim
+ 50 
+7.73.FieldDim
+ 50 
+7.74.FieldDim
+ 50 
+7.75.FieldDim
+ 50 
+7.76.FieldDim
+ 50 
+7.77.FieldDim
+ 50 
+7.78.FieldDim
+ 50 
+7.79.FieldDim
+ 8 
+7.80.FieldDim
+ 50 
+7.81.FieldDim
+ 50 
+7.82.FieldDim
+ 50 
+7.83.FieldDim
+ 8 
+7.84.FieldDim
+ 8 
+7.85.FieldDim
+ 50 
+7.86.FieldDim
+ 50 
+7.87.FieldDim
+ 50 
+7.88.FieldDim
+ 50 
+7.89.FieldDim
+ 50 
+7.90.FieldDim
+ 50 
+7.91.FieldDim
+ 50 
+7.92.FieldDim
+ 8 
+7.93.FieldDim
+ 8 
+7.94.FieldDim
+ 255 
+7.95.FieldDim
+ 8 
+7.96.FieldDim
+ 255 
+7.97.FieldDim
+ 255 
+7.98.FieldDim
+ 50 
+7.99.FieldDim
+ 50 
+7.100.FieldDim
+ 255 
+7.101.FieldDim
+ 255 
+7.102.FieldDim
+ 255 
+7.103.FieldDim
+ 255 
+7.104.FieldDim
+ 8 
+7.105.FieldDim
+ 255 
+7.106.FieldDim
+ 255 
+7.107.FieldDim
+ 255 
+7.108.FieldDim
+ 10 
+7.109.FieldDim
+ 255 
+7.110.FieldDim
+ 255 
+7.111.FieldDim
+ 255 
+7.112.FieldDim
+ 255 
+7.113.FieldDim
+ 255 
+7.114.FieldDim
+ 255 
+7.115.FieldDim
+ 255 
+7.116.FieldDim
+ 255 
+7.117.FieldDim
+ 255 
+7.118.FieldDim
+ 255 
+7.119.FieldDim
+ 255 
+7.120.FieldDim
+ 255 
+7.121.FieldDim
+ 10 
+7.122.FieldDim
+ 255 
+7.123.FieldDim
+ 255 
+7.124.FieldDim
+ 255 
+7.125.FieldDim
+ 50 
+7.126.FieldDim
+ 50 
+7.127.FieldDim
+ 8 
+7.128.FieldDim
+ 50 
+7.129.FieldDim
+ 10 
+8.0.FieldDim
+ 10 
+8.1.FieldDim
+ 15 
+8.2.FieldDim
+ 10 
+8.3.FieldDim
+ 8 
+8.4.FieldDim
+ 16 
+8.5.FieldDim
+ 50 
+8.6.FieldDim
+ 50 
+8.7.FieldDim
+ 1 
+8.8.FieldDim
+ 8 
+8.9.FieldDim
+ 100 
+8.10.FieldDim
+ 5 
+8.11.FieldDim
+ 20 
+8.12.FieldDim
+ 20 
+8.13.FieldDim
+ 20 
+8.14.FieldDim
+ 100 
+8.15.FieldDim
+ 5 
+8.16.FieldDim
+ 10 
+8.17.FieldDim
+ 100 
+8.18.FieldDim
+ 5 
+8.19.FieldDim
+ 100 
+8.20.FieldDim
+ 8 
+8.21.FieldDim
+ 10 
+8.22.FieldDim
+ 8 
+8.23.FieldDim
+ 1 
+8.24.FieldDim
+ 1 
+8.25.FieldDim
+ 1 
+8.26.FieldDim
+ 1 
+8.27.FieldDim
+ 100 
+8.28.FieldDim
+ 8 
+8.29.FieldDim
+ 50 
+8.30.FieldDim
+ 8 
+8.31.FieldDim
+ 10 
+8.32.FieldDim
+ 50 
+8.33.FieldDim
+ 50 
+8.34.FieldDim
+ 50 
+8.35.FieldDim
+ 50 
+8.36.FieldDim
+ 50 
+8.37.FieldDim
+ 50 
+8.38.FieldDim
+ 50 
+8.39.FieldDim
+ 50 
+8.40.FieldDim
+ 8 
+8.41.FieldDim
+ 50 
+8.42.FieldDim
+ 100 
+8.43.FieldDim
+ 100 
+8.44.FieldDim
+ 8 
+8.45.FieldDim
+ 50 
+8.46.FieldDim
+ 50 
+8.47.FieldDim
+ 50 
+8.48.FieldDim
+ 8 
+8.49.FieldDim
+ 10 
+8.50.FieldDim
+ 50 
+8.51.FieldDim
+ 100 
+8.52.FieldDim
+ 50 
+8.53.FieldDim
+ 50 
+8.54.FieldDim
+ 50 
+8.55.FieldDim
+ 100 
+8.56.FieldDim
+ 8 
+8.57.FieldDim
+ 150 
+8.58.FieldDim
+ 150 
+8.59.FieldDim
+ 10 
+8.60.FieldDim
+ 150 
+8.61.FieldDim
+ 8 
+8.62.FieldDim
+ 10 
+8.63.FieldDim
+ 8 
+8.64.FieldDim
+ 50 
+8.65.FieldDim
+ 50 
+8.66.FieldDim
+ 50 
+8.67.FieldDim
+ 150 
+8.68.FieldDim
+ 10 
+8.69.FieldDim
+ 150 
+8.70.FieldDim
+ 10 
+8.71.FieldDim
+ 8 
+8.72.FieldDim
+ 10 
+8.73.FieldDim
+ 8 
+8.74.FieldDim
+ 10 
+8.75.FieldDim
+ 8 
+8.76.FieldDim
+ 8 
+8.77.FieldDim
+ 10 
+8.78.FieldDim
+ 8 
+8.79.FieldDim
+ 10 
+8.80.FieldDim
+ 100 
+8.81.FieldDim
+ 100 
+8.82.FieldDim
+ 50 
+8.83.FieldDim
+ 50 
+8.84.FieldDim
+ 20 
+8.85.FieldDim
+ 50 
+8.86.FieldDim
+ 100 
+8.87.FieldDim
+ 100 
+8.88.FieldDim
+ 100 
+8.89.FieldDim
+ 100 
+8.90.FieldDim
+ 100 
+8.91.FieldDim
+ 100 
+8.92.FieldDim
+ 150 
+8.93.FieldDim
+ 15 
+8.94.FieldDim
+ 15 
+8.95.FieldDim
+ 15 
+8.96.FieldDim
+ 15 
+8.97.FieldDim
+ 15 
+8.98.FieldDim
+ 15 
+8.99.FieldDim
+ 15 
+8.100.FieldDim
+ 15 
+8.101.FieldDim
+ 15 
+8.102.FieldDim
+ 15 
+8.103.FieldDim
+ 15 
+8.104.FieldDim
+ 15 
+8.105.FieldDim
+ 15 
+8.106.FieldDim
+ 15 
+8.107.FieldDim
+ 15 
+8.108.FieldDim
+ 15 
+8.109.FieldDim
+ 15 
+8.110.FieldDim
+ 15 
+8.111.FieldDim
+ 15 
+8.112.FieldDim
+ 15 
+8.113.FieldDim
+ 15 
+8.114.FieldDim
+ 15 
+8.115.FieldDim
+ 15 
+8.116.FieldDim
+ 15 
+8.117.FieldDim
+ 15 
+8.118.FieldDim
+ 15 
+8.119.FieldDim
+ 15 
+8.120.FieldDim
+ 15 
+8.121.FieldDim
+ 15 
+8.122.FieldDim
+ 15 
+8.123.FieldDim
+ 15 
+8.124.FieldDim
+ 15 
+8.125.FieldDim
+ 15 
+8.126.FieldDim
+ 150 
+8.127.FieldDim
+ 50 
+8.128.FieldDim
+ 50 
+8.129.FieldDim
+ 10 
+8.130.FieldDim
+ 50 
+8.131.FieldDim
+ 50 
+8.132.FieldDim
+ 10 
+8.133.FieldDim
+ 50 
+8.134.FieldDim
+ 50 
+8.135.FieldDim
+ 10 
+8.136.FieldDim
+ 50 
+8.137.FieldDim
+ 50 
+8.138.FieldDim
+ 10 
+8.139.FieldDim
+ 50 
+8.140.FieldDim
+ 50 
+8.141.FieldDim
+ 10 
+8.142.FieldDim
+ 150 
+8.143.FieldDim
+ 1 
+8.144.FieldDim
+ 1 
+8.145.FieldDim
+ 150 
+8.146.FieldDim
+ 150 
+8.147.FieldDim
+ 150 
+8.148.FieldDim
+ 150 
+8.149.FieldDim
+ 150 
+8.150.FieldDim
+ 150 
+8.151.FieldDim
+ 1 
+8.152.FieldDim
+ 1 
+8.153.FieldDim
+ 1 
+8.154.FieldDim
+ 1 
+8.155.FieldDim
+ 1 
+8.156.FieldDim
+ 1 
+8.157.FieldDim
+ 1 
+8.158.FieldDim
+ 50 
+8.159.FieldDim
+ 50 
+8.160.FieldDim
+ 50 
+8.161.FieldDim
+ 50 
+8.162.FieldDim
+ 1 
+8.163.FieldDim
+ 1 
+8.164.FieldDim
+ 1 
+8.165.FieldDim
+ 1 
+8.166.FieldDim
+ 1 
+8.167.FieldDim
+ 1 
+8.168.FieldDim
+ 1 
+8.169.FieldDim
+ 1 
+8.170.FieldDim
+ 1 
+8.171.FieldDim
+ 1 
+8.172.FieldDim
+ 1 
+8.173.FieldDim
+ 1 
+8.174.FieldDim
+ 50 
+8.175.FieldDim
+ 1 
+8.176.FieldDim
+ 1 
+8.177.FieldDim
+ 1 
+8.178.FieldDim
+ 1 
+8.179.FieldDim
+ 1 
+8.180.FieldDim
+ 1 
+8.181.FieldDim
+ 1 
+8.182.FieldDim
+ 1 
+8.183.FieldDim
+ 1 
+8.184.FieldDim
+ 1 
+8.185.FieldDim
+ 1 
+8.186.FieldDim
+ 1 
+8.187.FieldDim
+ 1 
+8.188.FieldDim
+ 1 
+8.189.FieldDim
+ 1 
+8.190.FieldDim
+ 100 
+8.191.FieldDim
+ 1 
+8.192.FieldDim
+ 1 
+8.193.FieldDim
+ 1 
+8.194.FieldDim
+ 1 
+8.195.FieldDim
+ 1 
+8.196.FieldDim
+ 1 
+8.197.FieldDim
+ 1 
+8.198.FieldDim
+ 1 
+8.199.FieldDim
+ 1 
+8.200.FieldDim
+ 1 
+8.201.FieldDim
+ 1 
+8.202.FieldDim
+ 1 
+8.203.FieldDim
+ 50 
+8.204.FieldDim
+ 50 
+8.205.FieldDim
+ 100 
+8.206.FieldDim
+ 1 
+8.207.FieldDim
+ 1 
+8.208.FieldDim
+ 1 
+8.209.FieldDim
+ 150 
+8.210.FieldDim
+ 1 
+8.211.FieldDim
+ 1 
+8.212.FieldDim
+ 1 
+8.213.FieldDim
+ 1 
+8.214.FieldDim
+ 1 
+8.215.FieldDim
+ 1 
+8.216.FieldDim
+ 100 
+8.217.FieldDim
+ 50 
+8.218.FieldDim
+ 50 
+8.219.FieldDim
+ 10 
+8.220.FieldDim
+ 150 
+8.221.FieldDim
+ 1 
+8.222.FieldDim
+ 1 
+8.223.FieldDim
+ 1 
+8.224.FieldDim
+ 1 
+8.225.FieldDim
+ 1 
+8.226.FieldDim
+ 1 
+8.227.FieldDim
+ 50 
+8.228.FieldDim
+ 1 
+8.229.FieldDim
+ 1 
+8.230.FieldDim
+ 1 
+8.231.FieldDim
+ 1 
+8.232.FieldDim
+ 1 
+8.233.FieldDim
+ 1 
+8.234.FieldDim
+ 1 
+8.235.FieldDim
+ 20 
+8.236.FieldDim
+ 20 
+8.237.FieldDim
+ 20 
+8.238.FieldDim
+ 20 
+8.239.FieldDim
+ 20 
+8.240.FieldDim
+ 1 
+8.241.FieldDim
+ 1 
+8.242.FieldDim
+ 1 
+8.243.FieldDim
+ 1 
+8.244.FieldDim
+ 20 
+8.245.FieldDim
+ 50 
+8.246.FieldDim
+ 50 
+8.247.FieldDim
+ 10 
+9.0.FieldDim
+ 50 
+9.1.FieldDim
+ 255 
+9.2.FieldDim
+ 255 
+10.0.FieldDim
+ 15 
+10.1.FieldDim
+ 50 
+10.2.FieldDim
+ 255 
+10.3.FieldDim
+ 8 
+10.4.FieldDim
+ 8 
+10.5.FieldDim
+ 255 
+10.6.FieldDim
+ 255 
+10.7.FieldDim
+ 255 
+10.8.FieldDim
+ 255 
+10.9.FieldDim
+ 8 
+10.10.FieldDim
+ 255 
+10.11.FieldDim
+ 255 
+10.12.FieldDim
+ 255 
+10.13.FieldDim
+ 10 
+10.14.FieldDim
+ 255 
+10.15.FieldDim
+ 255 
+10.16.FieldDim
+ 255 
+10.17.FieldDim
+ 255 
+10.18.FieldDim
+ 255 
+10.19.FieldDim
+ 255 
+10.20.FieldDim
+ 255 
+10.21.FieldDim
+ 255 
+10.22.FieldDim
+ 10 
+10.23.FieldDim
+ 8 
+10.24.FieldDim
+ 255 
+10.25.FieldDim
+ 8 
+10.26.FieldDim
+ 8 
+10.27.FieldDim
+ 255 
+10.28.FieldDim
+ 255 
+10.29.FieldDim
+ 8 
+10.30.FieldDim
+ 255 
+10.31.FieldDim
+ 255 
+10.32.FieldDim
+ 8 
+10.33.FieldDim
+ 255 
+10.34.FieldDim
+ 255 
+10.35.FieldDim
+ 1 
+10.36.FieldDim
+ 255 
+10.37.FieldDim
+ 50 
+10.38.FieldDim
+ 50 
+10.39.FieldDim
+ 50 
+10.40.FieldDim
+ 50 
+10.41.FieldDim
+ 255 
+10.42.FieldDim
+ 255 
+10.43.FieldDim
+ 1 
+10.44.FieldDim
+ 10 
+10.45.FieldDim
+ 8 
+10.46.FieldDim
+ 8 
+10.47.FieldDim
+ 10 
+10.48.FieldDim
+ 255 
+10.49.FieldDim
+ 10 
+10.50.FieldDim
+ 8 
+10.51.FieldDim
+ 8 
+10.52.FieldDim
+ 8 
+10.53.FieldDim
+ 8 
+10.54.FieldDim
+ 255 
+10.55.FieldDim
+ 8 
+10.56.FieldDim
+ 255 
+10.57.FieldDim
+ 255 
+10.58.FieldDim
+ 255 
+10.59.FieldDim
+ 255 
+10.60.FieldDim
+ 8 
+10.61.FieldDim
+ 8 
+10.62.FieldDim
+ 255 
+10.63.FieldDim
+ 255 
+10.64.FieldDim
+ 255 
+10.65.FieldDim
+ 8 
+10.66.FieldDim
+ 255 
+10.67.FieldDim
+ 50 
+10.68.FieldDim
+ 50 
+10.69.FieldDim
+ 10 
+10.70.FieldDim
+ 8 
+10.71.FieldDim
+ 50 
+10.72.FieldDim
+ 50 
+10.73.FieldDim
+ 50 
+10.74.FieldDim
+ 8 
+10.75.FieldDim
+ 50 
+10.76.FieldDim
+ 50 
+10.77.FieldDim
+ 50 
+10.78.FieldDim
+ 50 
+10.79.FieldDim
+ 50 
+10.80.FieldDim
+ 50 
+10.81.FieldDim
+ 50 
+10.82.FieldDim
+ 50 
+10.83.FieldDim
+ 50 
+10.84.FieldDim
+ 8 
+10.85.FieldDim
+ 50 
+10.86.FieldDim
+ 50 
+10.87.FieldDim
+ 50 
+10.88.FieldDim
+ 50 
+10.89.FieldDim
+ 50 
+10.90.FieldDim
+ 50 
+10.91.FieldDim
+ 50 
+10.92.FieldDim
+ 8 
+10.93.FieldDim
+ 8 
+10.94.FieldDim
+ 255 
+10.95.FieldDim
+ 8 
+10.96.FieldDim
+ 255 
+10.97.FieldDim
+ 255 
+10.98.FieldDim
+ 50 
+10.99.FieldDim
+ 50 
+10.100.FieldDim
+ 255 
+10.101.FieldDim
+ 255 
+10.102.FieldDim
+ 255 
+10.103.FieldDim
+ 255 
+10.104.FieldDim
+ 8 
+10.105.FieldDim
+ 255 
+10.106.FieldDim
+ 255 
+10.107.FieldDim
+ 255 
+10.108.FieldDim
+ 10 
+10.109.FieldDim
+ 255 
+10.110.FieldDim
+ 255 
+10.111.FieldDim
+ 255 
+10.112.FieldDim
+ 255 
+10.113.FieldDim
+ 255 
+10.114.FieldDim
+ 255 
+10.115.FieldDim
+ 255 
+10.116.FieldDim
+ 255 
+10.117.FieldDim
+ 255 
+10.118.FieldDim
+ 255 
+10.119.FieldDim
+ 255 
+10.120.FieldDim
+ 255 
+10.121.FieldDim
+ 10 
+10.122.FieldDim
+ 255 
+10.123.FieldDim
+ 255 
+10.124.FieldDim
+ 255 
+10.125.FieldDim
+ 50 
+10.126.FieldDim
+ 50 
+10.127.FieldDim
+ 8 
+10.128.FieldDim
+ 50 
+10.129.FieldDim
+ 10 
+11.0.FieldDim
+ 50 
+11.1.FieldDim
+ 255 
+11.2.FieldDim
+ 0 
+12.0.FieldDim
+ 50 
+12.1.FieldDim
+ 255 
+12.2.FieldDim
+ 0 
+13.0.FieldDim
+ 50 
+13.1.FieldDim
+ 255 
+13.2.FieldDim
+ 0 
+13.3.FieldDim
+ 50 
+14.0.FieldDim
+ 50 
+14.1.FieldDim
+ 255 
+14.2.FieldDim
+ 0 
+14.3.FieldDim
+ 50 
+15.0.FieldDim
+ 10 
+15.1.FieldDim
+ 50 
+15.2.FieldDim
+ 255 
+15.3.FieldDim
+ 255 
+15.4.FieldDim
+ 255 
+15.5.FieldDim
+ 8 
+15.6.FieldDim
+ 255 
+15.7.FieldDim
+ 255 
+15.8.FieldDim
+ 255 
+15.9.FieldDim
+ 255 
+15.10.FieldDim
+ 255 
+15.11.FieldDim
+ 255 
+15.12.FieldDim
+ 1 
+15.13.FieldDim
+ 255 
+15.14.FieldDim
+ 255 
+15.15.FieldDim
+ 10 
+15.16.FieldDim
+ 255 
+15.17.FieldDim
+ 255 
+15.18.FieldDim
+ 50 
+15.19.FieldDim
+ 15 
+15.20.FieldDim
+ 8 
+15.21.FieldDim
+ 255 
+15.22.FieldDim
+ 255 
+15.23.FieldDim
+ 8 
+15.24.FieldDim
+ 50 
+15.25.FieldDim
+ 10 
+15.26.FieldDim
+ 1 
+15.27.FieldDim
+ 50 
+15.28.FieldDim
+ 50 
+15.29.FieldDim
+ 50 
+15.30.FieldDim
+ 50 
+15.31.FieldDim
+ 50 
+15.32.FieldDim
+ 250 
+15.33.FieldDim
+ 250 
+15.34.FieldDim
+ 250 
+15.35.FieldDim
+ 250 
+15.36.FieldDim
+ 250 
+15.37.FieldDim
+ 250 
+15.38.FieldDim
+ 250 
+15.39.FieldDim
+ 250 
+15.40.FieldDim
+ 1 
+15.41.FieldDim
+ 1 
+15.42.FieldDim
+ 1 
+15.43.FieldDim
+ 1 
+15.44.FieldDim
+ 1 
+15.45.FieldDim
+ 1 
+15.46.FieldDim
+ 1 
+15.47.FieldDim
+ 1 
+15.48.FieldDim
+ 1 
+15.49.FieldDim
+ 1 
+15.50.FieldDim
+ 1 
+15.51.FieldDim
+ 1 
+15.52.FieldDim
+ 1 
+15.53.FieldDim
+ 1 
+15.54.FieldDim
+ 1 
+15.55.FieldDim
+ 1 
+15.56.FieldDim
+ 255 
+15.57.FieldDim
+ 250 
+15.58.FieldDim
+ 250 
+15.59.FieldDim
+ 50 
+15.60.FieldDim
+ 250 
+15.61.FieldDim
+ 10 
+15.62.FieldDim
+ 10 
+15.63.FieldDim
+ 50 
+15.64.FieldDim
+ 10 
+16.0.FieldDim
+ 10 
+16.1.FieldDim
+ 50 
+16.2.FieldDim
+ 10 
+16.3.FieldDim
+ 10 
+16.4.FieldDim
+ 255 
+16.5.FieldDim
+ 50 
+16.6.FieldDim
+ 10 
+16.7.FieldDim
+ 50 
+16.8.FieldDim
+ 10 
+17.0.FieldDim
+ 50 
+17.1.FieldDim
+ 10 
+17.2.FieldDim
+ 50 
+17.3.FieldDim
+ 8 
+17.4.FieldDim
+ 50 
+17.5.FieldDim
+ 50 
+17.6.FieldDim
+ 8 
+17.7.FieldDim
+ 50 
+17.8.FieldDim
+ 10 
+17.9.FieldDim
+ 50 
+17.10.FieldDim
+ 10 
+18.0.FieldDim
+ 10 
+18.1.FieldDim
+ 100 
+18.2.FieldDim
+ 50 
+19.0.FieldDim
+ 255 
+19.1.FieldDim
+ 255 
+19.2.FieldDim
+ 255 
+19.3.FieldDim
+ 255 
+19.4.FieldDim
+ 10 
+19.5.FieldDim
+ 255 
+19.6.FieldDim
+ 255 
+19.7.FieldDim
+ 10 
+19.8.FieldDim
+ 255 
+19.9.FieldDim
+ 255 
+19.10.FieldDim
+ 10 
+20.0.FieldDim
+ 50 
+20.1.FieldDim
+ 10 
+20.2.FieldDim
+ 10 
+20.3.FieldDim
+ 50 
+20.4.FieldDim
+ 50 
+20.5.FieldDim
+ 5 
+20.6.FieldDim
+ 10 
+21.0.FieldDim
+ 6 
+21.1.FieldDim
+ 255 
+21.2.FieldDim
+ 5 
+21.3.FieldDim
+ 255 
+21.4.FieldDim
+ 50 
+21.5.FieldDim
+ 50 
+21.6.FieldDim
+ 50 
+21.7.FieldDim
+ 40 
+21.8.FieldDim
+ 15 
+21.9.FieldDim
+ 15 
+21.10.FieldDim
+ 15 
+21.11.FieldDim
+ 15 
+21.12.FieldDim
+ 40 
+21.13.FieldDim
+ 16 
+21.14.FieldDim
+ 11 
+21.15.FieldDim
+ 50 
+21.16.FieldDim
+ 50 
+21.17.FieldDim
+ 70 
+21.18.FieldDim
+ 70 
+21.19.FieldDim
+ 70 
+21.20.FieldDim
+ 2 
+21.21.FieldDim
+ 2 
+21.22.FieldDim
+ 255 
+21.23.FieldDim
+ 50 
+21.24.FieldDim
+ 10 
+21.25.FieldDim
+ 15 
+21.26.FieldDim
+ 15 
+21.27.FieldDim
+ 15 
+21.28.FieldDim
+ 15 
+21.29.FieldDim
+ 15 
+21.30.FieldDim
+ 50 
+21.31.FieldDim
+ 10 
+21.32.FieldDim
+ 10 
+21.33.FieldDim
+ 10 
+22.0.FieldDim
+ 10 
+22.1.FieldDim
+ 10 
+22.2.FieldDim
+ 50 
+22.3.FieldDim
+ 50 
+22.4.FieldDim
+ 50 
+22.5.FieldDim
+ 50 
+22.6.FieldDim
+ 50 
+22.7.FieldDim
+ 50 
+22.8.FieldDim
+ 50 
+22.9.FieldDim
+ 255 
+22.10.FieldDim
+ 10 
+22.11.FieldDim
+ 50 
+22.12.FieldDim
+ 10 
+22.13.FieldDim
+ 255 
+22.14.FieldDim
+ 255 
+22.15.FieldDim
+ 255 
+22.16.FieldDim
+ 255 
+22.17.FieldDim
+ 255 
+22.18.FieldDim
+ 255 
+22.19.FieldDim
+ 255 
+22.20.FieldDim
+ 50 
+22.21.FieldDim
+ 10 
+23.0.FieldDim
+ 10 
+23.1.FieldDim
+ 10 
+23.2.FieldDim
+ 50 
+23.3.FieldDim
+ 50 
+23.4.FieldDim
+ 50 
+23.5.FieldDim
+ 50 
+23.6.FieldDim
+ 50 
+23.7.FieldDim
+ 50 
+23.8.FieldDim
+ 50 
+23.9.FieldDim
+ 255 
+23.10.FieldDim
+ 10 
+23.11.FieldDim
+ 50 
+23.12.FieldDim
+ 10 
+23.13.FieldDim
+ 255 
+23.14.FieldDim
+ 255 
+23.15.FieldDim
+ 255 
+23.16.FieldDim
+ 255 
+23.17.FieldDim
+ 255 
+23.18.FieldDim
+ 255 
+23.19.FieldDim
+ 255 
+23.20.FieldDim
+ 50 
+23.21.FieldDim
+ 10 
+24.0.FieldDim
+ 10 
+24.1.FieldDim
+ 50 
+24.2.FieldDim
+ 10 
+24.3.FieldDim
+ 10 
+24.4.FieldDim
+ 8 
+25.0.FieldDim
+ 10 
+25.1.FieldDim
+ 50 
+26.0.FieldDim
+ 10 
+26.1.FieldDim
+ 8 
+26.2.FieldDim
+ 20 
+26.3.FieldDim
+ 50 
+26.4.FieldDim
+ 10 
+27.0.FieldDim
+ 10 
+27.1.FieldDim
+ 50 
+28.0.FieldDim
+ 50 
+28.1.FieldDim
+ 8 
+28.2.FieldDim
+ 10 
+28.3.FieldDim
+ 10 
+28.4.FieldDim
+ 10 
+28.5.FieldDim
+ 10 
+28.6.FieldDim
+ 10 
+28.7.FieldDim
+ 10 
+28.8.FieldDim
+ 10 
+28.9.FieldDim
+ 10 
+28.10.FieldDim
+ 10 
+28.11.FieldDim
+ 10 
+28.12.FieldDim
+ 10 
+28.13.FieldDim
+ 10 
+28.14.FieldDim
+ 10 
+28.15.FieldDim
+ 10 
+28.16.FieldDim
+ 10 
+28.17.FieldDim
+ 10 
+28.18.FieldDim
+ 10 
+28.19.FieldDim
+ 10 
+28.20.FieldDim
+ 10 
+28.21.FieldDim
+ 10 
+28.22.FieldDim
+ 10 
+28.23.FieldDim
+ 10 
+28.24.FieldDim
+ 10 
+28.25.FieldDim
+ 10 
+28.26.FieldDim
+ 10 
+28.27.FieldDim
+ 10 
+28.28.FieldDim
+ 10 
+28.29.FieldDim
+ 10 
+28.30.FieldDim
+ 10 
+28.31.FieldDim
+ 10 
+28.32.FieldDim
+ 10 
+28.33.FieldDim
+ 10 
+28.34.FieldDim
+ 10 
+28.35.FieldDim
+ 10 
+28.36.FieldDim
+ 10 
+28.37.FieldDim
+ 10 
+28.38.FieldDim
+ 10 
+28.39.FieldDim
+ 10 
+28.40.FieldDim
+ 10 
+28.41.FieldDim
+ 10 
+28.42.FieldDim
+ 10 
+28.43.FieldDim
+ 10 
+28.44.FieldDim
+ 10 
+28.45.FieldDim
+ 10 
+28.46.FieldDim
+ 10 
+28.47.FieldDim
+ 10 
+28.48.FieldDim
+ 10 
+28.49.FieldDim
+ 10 
+28.50.FieldDim
+ 10 
+28.51.FieldDim
+ 10 
+28.52.FieldDim
+ 10 
+28.53.FieldDim
+ 10 
+28.54.FieldDim
+ 10 
+28.55.FieldDim
+ 10 
+28.56.FieldDim
+ 10 
+28.57.FieldDim
+ 10 
+28.58.FieldDim
+ 10 
+28.59.FieldDim
+ 10 
+28.60.FieldDim
+ 10 
+28.61.FieldDim
+ 10 
+28.62.FieldDim
+ 10 
+28.63.FieldDim
+ 10 
+28.64.FieldDim
+ 10 
+28.65.FieldDim
+ 10 
+28.66.FieldDim
+ 10 
+28.67.FieldDim
+ 10 
+28.68.FieldDim
+ 10 
+28.69.FieldDim
+ 10 
+28.70.FieldDim
+ 10 
+28.71.FieldDim
+ 10 
+28.72.FieldDim
+ 10 
+28.73.FieldDim
+ 10 
+28.74.FieldDim
+ 10 
+28.75.FieldDim
+ 10 
+28.76.FieldDim
+ 10 
+28.77.FieldDim
+ 10 
+28.78.FieldDim
+ 10 
+28.79.FieldDim
+ 10 
+28.80.FieldDim
+ 10 
+28.81.FieldDim
+ 10 
+28.82.FieldDim
+ 10 
+28.83.FieldDim
+ 10 
+28.84.FieldDim
+ 10 
+28.85.FieldDim
+ 10 
+28.86.FieldDim
+ 10 
+28.87.FieldDim
+ 10 
+28.88.FieldDim
+ 50 
+28.89.FieldDim
+ 10 
+29.0.FieldDim
+ 10 
+29.1.FieldDim
+ 255 
+29.2.FieldDim
+ 0 
+30.0.FieldDim
+ 10 
+30.1.FieldDim
+ 65 
+30.2.FieldDim
+ 80 
+30.3.FieldDim
+ 80 
+30.4.FieldDim
+ 80 
+30.5.FieldDim
+ 80 
+30.6.FieldDim
+ 80 
+30.7.FieldDim
+ 80 
+30.8.FieldDim
+ 80 
+30.9.FieldDim
+ 80 
+30.10.FieldDim
+ 80 
+30.11.FieldDim
+ 80 
+30.12.FieldDim
+ 80 
+30.13.FieldDim
+ 80 
+30.14.FieldDim
+ 80 
+30.15.FieldDim
+ 80 
+30.16.FieldDim
+ 80 
+30.17.FieldDim
+ 80 
+30.18.FieldDim
+ 80 
+30.19.FieldDim
+ 80 
+30.20.FieldDim
+ 80 
+30.21.FieldDim
+ 80 
+30.22.FieldDim
+ 80 
+30.23.FieldDim
+ 80 
+30.24.FieldDim
+ 80 
+30.25.FieldDim
+ 80 
+30.26.FieldDim
+ 80 
+30.27.FieldDim
+ 80 
+30.28.FieldDim
+ 50 
+30.29.FieldDim
+ 10 
+31.0.FieldDim
+ 10 
+31.1.FieldDim
+ 65 
+31.2.FieldDim
+ 80 
+31.3.FieldDim
+ 80 
+31.4.FieldDim
+ 80 
+31.5.FieldDim
+ 80 
+31.6.FieldDim
+ 80 
+31.7.FieldDim
+ 80 
+31.8.FieldDim
+ 80 
+31.9.FieldDim
+ 80 
+31.10.FieldDim
+ 80 
+31.11.FieldDim
+ 80 
+31.12.FieldDim
+ 80 
+31.13.FieldDim
+ 80 
+31.14.FieldDim
+ 80 
+31.15.FieldDim
+ 80 
+31.16.FieldDim
+ 80 
+31.17.FieldDim
+ 80 
+31.18.FieldDim
+ 80 
+31.19.FieldDim
+ 80 
+31.20.FieldDim
+ 80 
+31.21.FieldDim
+ 80 
+31.22.FieldDim
+ 80 
+31.23.FieldDim
+ 80 
+31.24.FieldDim
+ 80 
+31.25.FieldDim
+ 80 
+31.26.FieldDim
+ 80 
+31.27.FieldDim
+ 80 
+31.28.FieldDim
+ 50 
+31.29.FieldDim
+ 10 
+32.0.FieldDim
+ 15 
+32.1.FieldDim
+ 50 
+32.2.FieldDim
+ 15 
+32.3.FieldDim
+ 5 
+32.4.FieldDim
+ 0 
+32.5.FieldDim
+ 50 
+32.6.FieldDim
+ 50 
+32.7.FieldDim
+ 50 
+32.8.FieldDim
+ 50 
+32.9.FieldDim
+ 50 
+32.10.FieldDim
+ 50 
+32.11.FieldDim
+ 50 
+32.12.FieldDim
+ 50 
+32.13.FieldDim
+ 50 
+32.14.FieldDim
+ 50 
+32.15.FieldDim
+ 50 
+32.16.FieldDim
+ 10 
